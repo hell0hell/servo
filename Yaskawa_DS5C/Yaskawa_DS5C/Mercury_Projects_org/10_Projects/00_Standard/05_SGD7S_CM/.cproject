@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.995599293">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.995599293" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="../../00_Products/Bin/${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.995599293" name="Debug" parent="com.arm.eclipse.build.config.baremetal.exe.debug" postbuildStep="..\makeBin.bat">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.995599293." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.687898079" name="ARM コンパイラ" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.exe.debug.995599293..1500674268" name=""/>
+							<builder buildPath="${workspace_loc:/04_SGD7S_CM/Debug}" id="com.arm.toolchain.baremetal.builder.2136138570" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.arm.toolchain.baremetal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.exe.debug.1126513363" name="ARM C コンパイラ" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.defmac.1419327606" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.option.defmac" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CSW_NETIF_CM_TYPE"/>
+									<listOptionValue builtIn="false" value="xxx_NON_EEPROM_"/>
+									<listOptionValue builtIn="false" value="xxx_USB_FUNC_USE_"/>
+									<listOptionValue builtIn="false" value="xxxCSW_MICRO_DEBUG_MODE"/>
+									<listOptionValue builtIn="false" value="xxx_ASIP_DEBUG_BUF_USE_"/>
+									<listOptionValue builtIn="false" value="SVFIF_CMDOPT"/>
+									<listOptionValue builtIn="false" value="_CMDOPT_OPE_DBG_"/>
+									<listOptionValue builtIn="false" value="_CMDOPT_ALM_DBG_"/>
+									<listOptionValue builtIn="false" value="MCCSW_SGDVCMOP"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.option.incpath.1185094730" name="Include path (-I)" superClass="com.arm.tool.c.compiler.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\00_Bsp\JL086_bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\00_Bsp\JL086_bsp\CPUPeripheral&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\00_Bsp\\JL086_bsp\usb_function&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\MicroProgram&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Communications&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Communications/DPM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Communications/DPM/XlsTbl&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Communications/DPM/Mlink&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Communications/DPM/Motion&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\BaseControls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\BaseSequences&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Boot\Config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\ScanB&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\ScanC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Round\Registers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Round\UtilityFuns&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\01_Standard\Kernel\Round\MsgIf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\02_Custom\00_SGD7\00_SpecCommon&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\02_Custom\00_SGD7\04_SGD7S_CM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\00_Bsp\ARM9_bsp\driver\cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\00_Bsp\ARM9_bsp\driver\intc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../00_src\00_Bsp\ARM9_bsp\include&quot;"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.option.optfor.1718411098" name="Optimize for" superClass="com.arm.tool.c.compiler.option.optfor" value="com.arm.tool.c.compiler.option.optfor.time" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.feedback.1799965969" name="Feedback file (--feedback)" superClass="com.arm.tool.c.compiler.option.feedback" value="../${ProjName}.fb" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.1758534021" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" value="Cortex-R4F" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.endian.1811145932" name="Byte order" superClass="com.arm.tool.c.compiler.option.endian" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.inst.1157269005" name="Instruction set" superClass="com.arm.tool.c.compiler.option.inst" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.inter.347324287" name="Interworking (--apcs=/interwork)" superClass="com.arm.tool.c.compiler.option.inter" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.targetfpu.1727643961" name="Target FPU (--fpu)" superClass="com.arm.tool.c.compiler.option.targetfpu" value="VFPv3_D16" valueType="string"/>
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt.38115016" name="Optimization level" superClass="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt" value="com.arm.tool.c.compiler.option.optlevel.restrict" valueType="enumerated"/>
+								<inputType id="com.arm.tool.c.compiler.input.1896645716" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1526664846" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.1663599758" name="ARM C++ コンパイラ" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt.242359328" name="Optimization level" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.908496558" name="ARM アセンブラ" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.cpu.1522274433" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-R4F" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.fpu.161556078" name="Target FPU (--fpu)" superClass="com.arm.tool.assembler.option.fpu" value="VFPv3_D16" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.endian.1045191397" name="Byte order" superClass="com.arm.tool.assembler.option.endian" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.inst.166493932" name="Instruction set" superClass="com.arm.tool.assembler.option.inst" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.138702798" name="ARM リンカ" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.entry.1593268127" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="MercuryMain" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.cpu.767813040" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-R4F" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.fpu.1160891662" name="Target FPU (--fpu)" superClass="com.arm.tool.c.linker.option.fpu" value="VFPv3_D16" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.596227599" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="..\..\..\..\00_src\02_Custom\00_SGD7\04_SGD7S_CM\Sgd7S_CM.scat" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.feedback.834892611" name="Feedback file (--feedback)" superClass="com.arm.tool.c.linker.option.feedback" value="../${ProjName}.fb" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.callgraph.1465200567" name="Generate call graph (--callgraph)" superClass="com.arm.tool.c.linker.option.callgraph" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.graphfile.1941181598" name="Callgraph file (--callgraph_file)" superClass="com.arm.tool.c.linker.option.graphfile" value="../../00_Products/Bin/${ProjName}.html" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1783432454" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.totals.644222712" name="List total code and data sizes of output image (--info=totals)" superClass="com.arm.tool.c.linker.option.totals" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.stack.1756350274" name="List stack usage of global symbols (--info=stack)" superClass="com.arm.tool.c.linker.option.stack" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.flags.1114101622" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--list=&quot;../../00_Products/Bin/${ProjName}.list&quot;" valueType="string"/>
+								<inputType id="com.arm.tool.c.linker.input.313829533" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.1930235661" name="ARM ライブラリアン" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="00_src/00_Bsp/JL086_bsp/init_SGD7.s|00_src/01_Standard/Communications/DPM/SC_UartDrv.c|00_src/01_Standard/Kernel/Round/MsgIf/M3MsgIF.c|00_src/01_Standard/Communications/DPM/XlsTbl|00_src/00_Bsp/JL086_bsp/usb_function/u2f_control.c|00_src/01_Standard/Kernel/Driver/HAL/CortexR4/TempSensorDrv.c|00_src/01_Standard/Kernel/Driver/HAL/CortexR4/I2C_TempSensorICDrv.c|00_src/01_Standard/Kernel/Driver/HAL/CortexR4/DetectTemperature.c|00_src/01_Standard/Kernel/Driver/HAL/JL086/FullcSerialEncCfg.c|00_src/01_Standard/Kernel/Driver/UsbFunctionIF.c|00_src/01_Standard/Kernel/Driver/LedDisp.c|00_src/01_Standard/Kernel/Driver/SerialEncIf.c|00_src/01_Standard/Kernel/Driver/FileDownload.c|00_src/01_Standard/Kernel/Driver/EthernetIF.c|00_src/01_Standard/Kernel/Round/OpeIf/LcdPrmCopy.c|00_src/02_Custom/00_SGD7/00_SpecCommon/TrigIo|00_src/02_Custom/00_SGD7/00_SpecCommon/RuntimeVersion.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.release.1777757934">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.release.1777757934" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.release.1777757934" name="Release" parent="com.arm.eclipse.build.config.baremetal.exe.release">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.release.1777757934." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.release.1237362668" name="ARM コンパイラ" superClass="com.arm.toolchain.baremetal.exe.release">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.exe.release.1777757934..152372843" name=""/>
+							<builder buildPath="${workspace_loc:/04_SGD7S_CM/Release}" id="com.arm.toolchain.baremetal.builder.1895984345" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.arm.toolchain.baremetal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.exe.release.1974798571" name="ARM C コンパイラ" superClass="com.arm.tool.c.compiler.baremetal.exe.release">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.high" id="com.arm.tool.c.compiler.baremetal.exe.release.base.option.opt.294869251" name="Optimization level" superClass="com.arm.tool.c.compiler.baremetal.exe.release.base.option.opt" valueType="enumerated"/>
+								<inputType id="com.arm.tool.c.compiler.input.985403159" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.680037006" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.release.1250878348" name="ARM C++ コンパイラ" superClass="com.arm.tool.cpp.compiler.baremetal.exe.release">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.high" id="com.arm.tool.cpp.compiler.baremetal.exe.release.base.option.opt.1263567155" name="Optimization level" superClass="com.arm.tool.cpp.compiler.baremetal.exe.release.base.option.opt" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1832878184" name="ARM アセンブラ" superClass="com.arm.tool.assembler"/>
+							<tool id="com.arm.tool.c.linker.318240435" name="ARM リンカ" superClass="com.arm.tool.c.linker">
+								<inputType id="com.arm.tool.c.linker.input.1437869630" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.1510071173" name="ARM ライブラリアン" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="00_src/01_Standard/Communications/DPM/SC_UartDrv.c|00_src/01_Standard/Kernel/Round/MsgIf/M3MsgIF.c|00_src/01_Standard/Communications/DPM/XlsTbl|00_src/00_Bsp/JL086_bsp/usb_function/u2f_control.c|00_src/01_Standard/Kernel/Driver/HAL/CortexR4/TempSensorDrv.c|00_src/01_Standard/Kernel/Driver/HAL/CortexR4/I2C_TempSensorICDrv.c|00_src/01_Standard/Kernel/Driver/HAL/CortexR4/DetectTemperature.c|00_src/01_Standard/Kernel/Driver/HAL/JL086/FullcSerialEncCfg.c|00_src/01_Standard/Kernel/Driver/UsbFunctionIF.c|00_src/01_Standard/Kernel/Driver/LedDisp.c|00_src/01_Standard/Kernel/Driver/SerialEncIf.c|00_src/01_Standard/Kernel/Driver/FileDownload.c|00_src/01_Standard/Kernel/Driver/EthernetIF.c|00_src/01_Standard/Kernel/Round/OpeIf/LcdPrmCopy.c|00_src/02_Custom/00_SGD7/00_SpecCommon/TrigIo|00_src/02_Custom/00_SGD7/00_SpecCommon/RuntimeVersion.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="04_SGD7S_CM.com.arm.eclipse.build.project.baremetal.exe.496237127" name="ベアメタル実行可能ファイル" projectType="com.arm.eclipse.build.project.baremetal.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

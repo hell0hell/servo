@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B28694B5-0135-4381-8A69-1C3978010002}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MercurySimulation</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CSW_NETIF_ANLGPLS_TYPE;CCSW_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\..\00_src\00_Bsp\ARM9_bsp\arch;..\..\00_src\00_Bsp\ARM9_bsp\driver\_sfmemc;..\..\00_src\00_Bsp\ARM9_bsp\driver\board;..\..\00_src\00_Bsp\ARM9_bsp\driver\cpu;..\..\00_src\00_Bsp\ARM9_bsp\driver\csi;..\..\00_src\00_Bsp\ARM9_bsp\driver\gpio;..\..\00_src\00_Bsp\ARM9_bsp\driver\iic;..\..\00_src\00_Bsp\ARM9_bsp\driver\intc;..\..\00_src\00_Bsp\ARM9_bsp\driver\memc;..\..\00_src\00_Bsp\ARM9_bsp\driver\pcie;..\..\00_src\00_Bsp\ARM9_bsp\driver\sata;..\..\00_src\00_Bsp\ARM9_bsp\driver\timer;..\..\00_src\00_Bsp\ARM9_bsp\driver\uart;..\..\00_src\00_Bsp\ARM9_bsp\driver\usb_function;..\..\00_src\00_Bsp\ARM9_bsp\driver\usb_function\msc;..\..\00_src\00_Bsp\ARM9_bsp\include;..\..\00_src\00_Bsp\JL086_bsp;..\..\00_src\00_Bsp\JL086_bsp\CPUPeripheral;..\..\00_src\00_Bsp\JL086_bsp\usb_function;..\..\00_src\01_Standard\BaseControls;..\..\00_src\01_Standard\BaseSequences;..\..\00_src\01_Standard\Communications\M3;..\..\00_src\01_Standard\Communications\M3\MLink;..\..\00_src\01_Standard\Communications\M3\Motion;..\..\00_src\01_Standard\Kernel\Boot\Config;..\..\00_src\01_Standard\Kernel\Driver;..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4;..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086;..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv;..\..\00_src\01_Standard\Kernel\Include;..\..\00_src\01_Standard\Kernel\Lib;..\..\00_src\01_Standard\Kernel\Round\MsgIf;..\..\00_src\01_Standard\Kernel\Round\Registers;..\..\00_src\01_Standard\Kernel\Round\UtilityFuns;..\..\00_src\01_Standard\Kernel\ScanA;..\..\00_src\01_Standard\Kernel\ScanB;..\..\00_src\01_Standard\Kernel\ScanC;..\..\00_src\01_Standard\MicroProgram;..\..\00_src\02_Custom\00_SGD7\00_SpecCommon;..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers;..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BacklashComp.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseControlMain.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseControlPrmCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseControls.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseLoop.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BprmCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\CtrlPrmTransducer.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ExControls.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ExCtrlPrmCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\FieldWeakening.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\GainChange.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\JatOffLine.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\MicroCyclicIf.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\MicroPrmCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ModelControl.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\MotorPoleFind.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\PosManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ProgramJog.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ResVibCtrl.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\TableDrive.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\BaseEnableSequence.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\CheckAlarm.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\CheckMotSts.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\PowerManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\RemVibFreq.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\SequenceIo.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\SequenceMain.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\M3CfgTbl.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\m3_bootloader.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdAnalyzer.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdTable.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComAlmMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComRegMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdCmdProc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdRspProc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\RspManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\AccFilter.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtApi.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtCtrl.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtGenerator.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtPRM.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\Position.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\Sposing.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\Config\IniPrmCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\Config\MercuryGlobals.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\Config\SystemConfigulation.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\MercuryMain.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\EepDefConfig.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\EepromIF.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\FlashIF.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Dma.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Eeprom.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\HwDeviceIf.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\SPI_EepromDrv.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Uart.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\uDMATransfer.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\I2C_EepromDrv.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\JL086ServoIpHw.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\SerialEncIf.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100micro.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_ini.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_lnk.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_msg.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\NetDriver.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\MotorPrmCfg.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\NetworkIf.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\SencScanService.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\SifMbus.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\SimMotPrm.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\UsbMsgIF.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\VirSif.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Lib\KLib.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Lib\MLib.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Apl\AlmTrc\FunAlmTrc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Apl\Jog\FunJog.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Apl\RegEdit\RegEdit.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\FunMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\InfMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\MonMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\ObjMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\OpeMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\PrmMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\MemobusFunctions.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\MsgMngr.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\SigmaMemobus.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\LcdOpFun.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\LcdOpMain.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\LcdOpPrmMon.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\PnlOp.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\PnlOpAp.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\InfoRegCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\NetworkIdRegCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\OpeRegCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\RegAccessIf.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\UnRegCalc.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Round.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AdvancedAutoTuning.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AutoNotchSet.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnAbsScaleSet.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnAtypeVibTune.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnDCVoltageAdj.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnEasyFFT.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnInitVibDetLv.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnJatOffLine.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnJog.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMfcTuning.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMotorCurrentAdj.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMotorPrmDownload.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMultiTurnSet.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnOnePrmTuning.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnPrgJog.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnSetTuneLessLvl.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnSysConfig.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnTableCommand.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnVibMonitor.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunListDef.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\OnlineFFT.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\TuneLib.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanA\IntScanA.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanB\DataTraceManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanB\IntScanB.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanC\AlarmManager.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanC\AlarmTable.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanC\IntScanC.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\MicroProgram\MprgIngram.c" />
+    <ClCompile Include="..\..\00_src\01_Standard\MicroProgram\MprgJL086.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\DataTraceCalc.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\XlsTrcDef.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\InfoRegTblIngram.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\OpeRegTblIngram.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\PrmTblIngram.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\TrcRegTblIngram.c" />
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\UnRegTblIngram.c" />
+    <ClCompile Include="FG.c" />
+    <ClCompile Include="MotorModel\MotorModel.c" />
+    <ClCompile Include="MpgDebug\Global.c" />
+    <ClCompile Include="MpgDebug\IlibSvc.c" />
+    <ClCompile Include="MpgDebug\IxInst.c" />
+    <ClCompile Include="MpgDebug\MpgTstMain.c" />
+    <ClCompile Include="MpgDebug\MprgSgdv.c" />
+    <ClCompile Include="MpgDebug\RomTable.c" />
+    <ClCompile Include="ServoIf.c" />
+    <ClCompile Include="SimMain.cpp" />
+    <ClCompile Include="Stubs.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BacklashComp.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseCmnStruct.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseControlMain.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseControlPrmCalc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseControls.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\Bprm.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\CtrlLoopHandler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\CtrlPrmTransducer.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ExControls.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ExCtrlPrmCalc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\GainChange.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\GselHandler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\JatOffLine.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MfcHandler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MicroPrmCalc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MicroScanAIf.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ModelControl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MotorPoleFind.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MpfHandler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\PosManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ProgramJog.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ResVibCtrl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ServoIf.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\TableDrive.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\BaseEnableSequence.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\CheckAlarm.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\CheckMotSts.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\OverheatManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\PowerManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\RemVibFreq.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\SequenceIo.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\SequenceMain.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\ComCfg.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\M3TaskIfMain.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdAnalyzer.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdHandler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdTable.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComAlmMngr.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3Handler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdCmdProc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdDataFormat.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdRspProc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RegMngr.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RegTable.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RspHandler.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RspManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\SysApi.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\AccFilter.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtApi.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtCtrl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtGenerator.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtPRM.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\Position.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\PRMBank.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Boot\Config\MercuryGlobals.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Boot\Config\SysConfig.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\EepromIF.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\FlashIF.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\DetectTemperature.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Dma.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\DMAdrv.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Eeprom.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\HwDeviceIf.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\mp_api.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Sif.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\SPI_EepromDrv.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Uart.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Usb.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\VSif.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\EncData.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\I2C_EepromDrv.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\JL086ServoIpHw.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\JL086ServoIpReg.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\SerialEncIf.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\big_jl100_def.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_gbl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\little_jl100_def.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\NetDriver.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\MemobusIF.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\NetworkIf.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\alarm.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Function.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Information.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\KnlApi.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\LcdOp.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Monitor.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\MsgIfDef.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Object.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Operation.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Parameter.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\PnlOp.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\PnlOpCORE.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Lib\Basedef.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Lib\KLib.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Lib\MLib.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\MemobusFunctions.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\InfRegFunc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\NetworkIdRegFunc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\OpeRegFunc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmCalFunc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmListTbl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmStruct.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PrmAccessIf.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\UnitPrmStruct.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\UnMonFunc.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AdvancedAutoTuning.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AutoNotchSet.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnAtypeVibTune.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnDCVoltageAdj.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnEasyFFT.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnInitVibDetLvl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnJatOffLine.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMfcTuning.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnOnePrmTuning.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnPrgJog.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnSetTuneLessLvl.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnTableCommand.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnVibMonitor.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunListDef.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\PdetABSScale.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\TuneLib.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\ScanB\DataTraceManager.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\ScanC\alarm.h" />
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\ScanC\AlarmManager.h" />
+    <ClInclude Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\DataTraceCalc.h" />
+    <ClInclude Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\XlsTrcDef.h" />
+    <ClInclude Include="INTEGRITY.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimMain.h" />
+    <ClInclude Include="SystemSetting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MercurySim.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunTblIngram.xls" />
+    <None Include="alarm.bmp" />
+    <None Include="BackGround.bmp" />
+    <None Include="bitmap1.bmp" />
+    <None Include="bitmap2.bmp" />
+    <None Include="bitmap4.bmp" />
+    <None Include="icon1.ico" />
+    <None Include="icon2.ico" />
+    <None Include="Off.bmp" />
+    <None Include="On.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

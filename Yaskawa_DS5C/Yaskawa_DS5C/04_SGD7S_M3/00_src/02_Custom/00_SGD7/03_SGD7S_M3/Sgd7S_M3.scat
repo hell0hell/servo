@@ -1,0 +1,168 @@
+;; Scatter file (Core Tile for R4F - Emulation board)
+;; REMAP = 000
+
+
+LOAD_B0TCM 0x67FA0000 0xC8000	; 800KB Runtime area	<S146>
+{
+	B0TCM 0x67FA0000 0xF500 ; 62KB 0Wait Data		<S127>
+    {
+    ;割り込みハンドラ処理
+    	*		(VECT_DATA)
+    ;高速Scan処理
+		MercuryGlobals.o	(Globals,+ENTRY)
+;		MLib.o				(+RO-DATA)
+		KLib.o				(+RW,+ZI,+RO-DATA)
+		MtCtrl.o			(+RO-DATA)
+		MtGenerator.o		(+RO-DATA)
+;		PrmTblIngram.o		(+RO-DATA)
+;		PrmTblMercury.o		(+RO-DATA)
+		NetDriver.o			(+RO-DATA)
+;		OpeRegTblIngram.o	(+RO-DATA)
+;		OpeRegTblMercury.o	(+RO-DATA)
+;		UnRegTblIngram.o	(+RO-DATA)
+;		UnRegTblMercury.o	(+RO-DATA)
+;		XlsTrcDef.o			(+RO-DATA)
+    }
+
+	ARM_LIB_STACKHEAP 0x67FAF500 EMPTY 0xB00	; 2KB		<S127>
+	{
+	}
+}
+LOAD_B1TCM 0x67FB8000 0xC8000	; 800KB Runtime area	<S146>
+{
+	B1TCM 0x67FB8000 0x8000 ; 32KB 0Wait ScanA+ScanB?	0x67FB0000-0x67FB7FFFのミラー領域 アドレスをATCMと連続にするため
+	{
+    ;割り込みハンドラ処理
+    	*		(VECT_CODE)
+    ;ScanA以下でコールされるもの
+;		MercuryMain.o		(+CODE)
+		IntScanA.o			(+CODE)
+		BaseControlMain.o	(+CODE)		;ScanB
+		BaseControls.o		(+CODE)
+		MicroCyclicIF.o		(+CODE)
+		BaseLoop.o			(+CODE)
+		RippleComp.o		(+CODE)
+;		MercuryGlobals.o	(+CODE)
+		SencScanService.o	(+CODE)
+		Mlib.o				(+CODE)		;ScanB,ScanC
+		PosManager.o		(+CODE)		;ScanB,ScanC
+;		M3TaskIfMain.o		(+CODE)
+;		MtCtrl.o			(+CODE)
+    }
+
+    ATCM 0x67FC0000 0x30000 ; 192KB 1Wait ScanB+α
+    {
+    ;ScanA以下でコールされるもの
+		SystemConfigulation.o(+CODE)	;for debug
+		DataTraceManager.o	(+CODE)		;ScanB
+		Klib.o				(+CODE)
+		AlarmManager.o		(+CODE)		;ScanB,ScanC
+;		*.l					(+CODE)
+	;ScanB以下でコールされるもの
+		IntScanB.o			(+CODE)
+		JatOffLine.o		(+CODE)		;ScanC
+		TableDrive.o		(+CODE)
+		ModelControl.o		(+CODE)
+		ResVibCtrl.o		(+CODE)		;ScanC
+		GainChange.o		(+CODE)
+		FieldWeakening.o	(+CODE)
+		PowerManager.o		(+CODE)		;ScanC
+		HwDeviceIf.o		(+CODE)		;ScanC
+		EepromIF.o			(+CODE)		;ScanC
+		MotorPoleFind.o		(+CODE)
+		MicroPrmCalc.o		(+CODE)
+		MotorPrmCfg.o		(+CODE)
+    ;ScanC以下でコールされるもの
+    	IntScanC.o			(+CODE)
+    	SequenceMain.o		(+CODE)
+		SequenceIo.o	(+CODE)
+		CheckMotSts.o		(+CODE)
+		FnAbsScaleSet.o		(+CODE)
+		AdvancedAutoTuning.o(+CODE)
+		BaseEnableSequence.o(+CODE)
+		CheckAlarm.o		(+CODE)
+		ProgramJog.o		(+CODE)
+	;ネットワーク処理？
+		M3TaskIfMain.o		(+CODE)
+		CmdAnalyzer.o		(+CODE)
+		ComAlmMngr.o		(+CODE)
+		ComManager.o		(+CODE)
+		ComRegMngr.o		(+CODE)
+		M3StdCmdProc.o		(+CODE)
+		M3StdRspProc.o		(+CODE)
+		RspManager.o		(+CODE)
+		MtCtrl.o			(+CODE)
+		AccFilter.o			(+CODE)
+		MtApi.o				(+CODE)
+		MtGenerator.o		(+CODE)
+		MtPRM.o				(+CODE)
+		Position.o			(+CODE)
+		Sposing.o			(+CODE)
+		NetDriver.o			(+CODE)
+		jl100s_lnk.o		(+CODE)
+		NetworkIdRegCalc.o	(+CODE)
+	;**********
+		Stubs.o				(+CODE)
+		OnlineFFT.o			(+CODE)
+		OpeRegCalc.o		(+CODE)
+;		OpeRegTblIngram.o	(+CODE)
+		OpeRegTblMercury.o	(+CODE)
+		PrmTblMercury.o		(+CODE)
+		RemVibFreq.o		(+CODE)
+		Round.o				(+CODE)
+		SPI_EepromDrv.o		(+CODE)
+		TrcRegTblIngram.o	(+CODE)
+		TuneLessPrmCalc.o	(+CODE)
+		TuneLib.o			(+CODE)
+		MercuryGlobals.o	(+CODE)
+	}
+}
+LOAD_AXIRAM 0x68000000 0xC8000	; 800KB Runtime area	<S146>
+{
+    AXIRAM_CODE 0x68000000 0x60000 ; AXIRAM 384KB for CODE
+    {
+    	*	(MERCURY_START_CODE,+FIRST)	;<S146>
+		AutoNotchSet.o		(+CODE)
+		BaseControlPrmCalc.o(+CODE)
+		BprmCalc.o			(+CODE)
+		DataTraceCalc.o		(+CODE)
+		EepDefConfig.o		(+CODE)
+		FunManager.o		(+CODE)
+		I2C_EepromDrv.o		(+CODE)
+		InfoRegCalc.o		(+CODE)
+;		InfoRegTblIngram.o	(+CODE)
+		InfoRegTblMercury.o	(+CODE)
+		IniPrmCalc.o		(+CODE)
+    	JL086ServoIpHw.o	(+CODE)
+		RegAccessIf.o		(+CODE)
+		SerialEncIf.o		(+CODE)
+;		SystemConfigulation.o(+CODE)	;for debug
+		SFlash.o			(+CODE)
+		FlashIF.o			(+CODE)
+		FirmDownload.o		(+CODE)
+;		MercuryMain.o		(+CODE)
+    		*	(+CODE)
+    }
+
+;キャッシュ使用領域（高速で処理したいものがあれば）きっと設定可能。
+;    AXIRAM1CACHE 0x68040000 0x4000 ; 16KB ExtraCode(Cache Enable)
+;    {
+;		apic.o				(+CODE)
+;		AutoNotchSet.o		(+CODE)
+;		BaseControlPrmCalc.o(+CODE)
+;		BprmCalc.o			(+CODE)
+;		DataTraceCalc.o		(+CODE)
+;		EepDefConfig.o		(+CODE)
+;		FunManager.o		(+CODE)
+;		I2C_EepromDrv.o		(+CODE)
+;		InfoRegCalc.o		(+CODE)
+;		InfoRegTblIngram.o	(+CODE)
+;		IniPrmCalc.o		(+CODE)
+;		JL086ServoIpHw.o	(+CODE)
+;	}
+
+	AXIRAM_DATA 0x68060000 0x20000 ; AXIRAM 128KB for DATA 
+    {
+	   	*	(+RW,+ZI,+RO-DATA)
+    }
+}

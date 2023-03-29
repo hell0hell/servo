@@ -1,0 +1,57 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\Yaskawa\Yaskawa_DS5C\.metadata\.plugins\com.python.pydev.analysis\jython_v1_x0996hu15190az0p0mlldctn\v2_indexcache
+struct|0|
+jarray|0|
+_marshal|0|
+nt|0|
+binascii|0|
+ucnhash|0|
+_sre|0|
+sys|0|
+cmath|0|
+imp|0|
+itertools|0|
+jffi|0|
+operator|0|
+StringIO|0|
+_py_compile|0|
+array|0|
+zipimport|0|
+_codecs|0|
+_hashlib|0|
+gc|0|
+email|0|
+cPickle|0|
+synchronize|0|
+_random|0|
+errno|0|
+os.path|0|
+hashlib|0|
+os|0|
+pytest|0|
+__builtin__|0|
+com.ziclix.python.sql|0|
+_csv|0|
+_weakref|0|
+thread|0|
+exceptions|0|
+_ast|0|
+_systemrestart|0|
+re|0|
+cStringIO|0|
+_collections|0|
+_functools|0|
+_threading|0|
+math|0|
+time|0|
+-- END DISKCACHE
+-- START DICTIONARY
+0
+-- END DICTIONARY
+-- START TREE 1
+0
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

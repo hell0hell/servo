@@ -1,0 +1,94 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/FunMngr.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/InfMngr.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/MemDef.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/MemMngr.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/MonMngr.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/ObjMngr.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/OpeMngr.c \
+E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/PrmMngr.c 
+
+C_DEPS += \
+./00_src/01_Standard/Kernel/Round/Core/FunMngr.d \
+./00_src/01_Standard/Kernel/Round/Core/InfMngr.d \
+./00_src/01_Standard/Kernel/Round/Core/MemDef.d \
+./00_src/01_Standard/Kernel/Round/Core/MemMngr.d \
+./00_src/01_Standard/Kernel/Round/Core/MonMngr.d \
+./00_src/01_Standard/Kernel/Round/Core/ObjMngr.d \
+./00_src/01_Standard/Kernel/Round/Core/OpeMngr.d \
+./00_src/01_Standard/Kernel/Round/Core/PrmMngr.d 
+
+OBJS += \
+./00_src/01_Standard/Kernel/Round/Core/FunMngr.o \
+./00_src/01_Standard/Kernel/Round/Core/InfMngr.o \
+./00_src/01_Standard/Kernel/Round/Core/MemDef.o \
+./00_src/01_Standard/Kernel/Round/Core/MemMngr.o \
+./00_src/01_Standard/Kernel/Round/Core/MonMngr.o \
+./00_src/01_Standard/Kernel/Round/Core/ObjMngr.o \
+./00_src/01_Standard/Kernel/Round/Core/OpeMngr.o \
+./00_src/01_Standard/Kernel/Round/Core/PrmMngr.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+00_src/01_Standard/Kernel/Round/Core/FunMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/FunMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/InfMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/InfMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/MemDef.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/MemDef.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/MemMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/MemMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/MonMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/MonMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/ObjMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/ObjMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/OpeMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/OpeMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+00_src/01_Standard/Kernel/Round/Core/PrmMngr.o: E:/18_ZHD_Servo/SGD7_WORK/SGD7Soft/Mercury_Projects_F0090016/00_src/01_Standard/Kernel/Round/Core/PrmMngr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM C コンパイラ'
+	armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped --no_depend_system_headers --depend_dir="00_src/01_Standard/Kernel/Round/Core" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

@@ -1,0 +1,213 @@
+;#<FEEDBACK># ARM Linker, 5050041: Last Updated: Sat Jan 21 21:00:54 2017
+;VERSION 0.2
+;FILE Eeprom.o
+EepI2Cdrv_WriteEepromWord <= USED 0
+IntCpuI2CBusIF <= USED 0
+;FILE FirmDownload.o
+;FILE FlashIF.o
+SFlashModeChgSoC <= USED 0
+SFlashReadByteSoC <= USED 0
+;FILE HwDeviceIf.o
+HALdrv_ForceOutSignalsMask <= USED 0
+HALdrv_GetBootVersion <= USED 0
+HALdrv_GetNorflashRegister <= USED 0
+HALdrv_GetPsBitNumber <= USED 0
+HALdrv_GetSpBitNumber <= USED 0
+HALdrv_KickIfWdt <= USED 0
+HALdrv_SetM3PrgSel <= USED 0
+;FILE Interrupts.o
+;FILE JL086Core.o
+;FILE KLib.o
+GetInterruptTiming <= USED 0
+ITmr_ConvNsec2count <= USED 0
+InitializeInterruptTiming <= USED 0
+KlibClockToTime <= USED 0
+KlibCountLongTimer <= USED 0
+KlibCountTimeStamp <= USED 0
+KlibGetClockTime <= USED 0
+KlibGetLongCounter <= USED 0
+KlibGetMainPowerOffTimer <= USED 0
+KlibGetTimeAfterPowerOn <= USED 0
+KlibGetTimeStamp <= USED 0
+KlibInitializeTimeStamp <= USED 0
+KlibRstLongCounter <= USED 0
+KlibWaitns <= USED 0
+KpiSystemError <= USED 0
+;FILE MLib.o
+MlibAbsErrchk32 <= USED 0
+MlibAbsErrchk64 <= USED 0
+MlibAposRg64dp <= USED 0
+MlibAposRg64iv <= USED 0
+MlibCheckPowerOf2 <= USED 0
+MlibChkSum16SM <= USED 0
+MlibCopyByteMemory <= USED 0
+MlibCopyLongMemory <= USED 0
+MlibDiv6432 <= USED 0
+MlibDivhrem <= USED 0
+MlibDivx3232 <= USED 0
+MlibEgearRvscnv <= USED 0
+MlibExpCal <= USED 0
+MlibHpfilter1 <= USED 0
+MlibHsIntegral <= USED 0
+MlibHsMulgain <= USED 0
+MlibHsMulgainNolim <= USED 0
+MlibIntegral <= USED 0
+MlibIpcalPcmdMaker <= USED 0
+MlibKsgain2Long <= USED 0
+MlibLaufilter <= USED 0
+MlibLimitul <= USED 0
+MlibLowPassfilter2 <= USED 0
+MlibLpfilter1 <= USED 0
+MlibLpfilter2 <= USED 0
+MlibMulgain <= USED 0
+MlibMulgain29 <= USED 0
+MlibMulgain30 <= USED 0
+MlibMulgain30U <= USED 0
+MlibMulgain31U <= USED 0
+MlibMulgain32 <= USED 0
+MlibMulgain32Sx48 <= USED 0
+MlibMulgain32U <= USED 0
+MlibMulgainNolim <= USED 0
+MlibMulgainSx48 <= USED 0
+MlibMulkprem <= USED 0
+MlibMulkxBiasrem <= USED 0
+MlibMulkxBiasremOld <= USED 0
+MlibNxfilter2 <= USED 0
+MlibPcalKegear <= USED 0
+MlibPcalKf1gain <= USED 0
+MlibPcalKf2gain <= USED 0
+MlibPcalKnf2gain <= USED 0
+MlibPcalKsksks <= USED 0
+MlibPcalKskskx <= USED 0
+MlibPcalKskxkx <= USED 0
+MlibPcalKxaddx <= USED 0
+MlibPcalKxdivx <= USED 0
+MlibPcalKxgain <= USED 0
+MlibPcalKxksks <= USED 0
+MlibPcalKxkskx <= USED 0
+MlibPcalKxkxks <= USED 0
+MlibPcalKxmulx <= USED 0
+MlibPcalKxsubx <= USED 0
+MlibPcalaPcmdMaker <= USED 0
+MlibPcalbPcmdMaker <= USED 0
+MlibPcmdEgear <= USED 0
+MlibPcmdExpfil <= USED 0
+MlibPcmdImafil <= USED 0
+MlibPcmdImafilSec <= USED 0
+MlibPcmdLpfil1 <= USED 0
+MlibPcmdLpfil2 <= USED 0
+MlibPcmdMafil <= USED 0
+MlibPcmdMafilSec <= USED 0
+MlibPcmdMaker <= USED 0
+MlibPcmdNxfil2 <= USED 0
+MlibPerrcala <= USED 0
+MlibPerrcalx <= USED 0
+MlibPfbkxremLim <= USED 0
+MlibPfbkxremNolim <= USED 0
+MlibRstPcmdMaker <= USED 0
+MlibSatAdd24 <= USED 0
+MlibSatAdd28 <= USED 0
+MlibSatAdd32 <= USED 0
+MlibSatAddu32 <= USED 0
+MlibScalKsksks <= USED 0
+MlibScalKskskx <= USED 0
+MlibScalKskxkx <= USED 0
+MlibScalKxgain <= USED 0
+MlibScalKxksks <= USED 0
+MlibScalKxkskx <= USED 0
+MlibScalKxkxks <= USED 0
+MlibSetSum16SM <= USED 0
+MlibSins16 <= USED 0
+MlibSqrtu32 <= USED 0
+MlibSqrtu32u32 <= USED 0
+MlibSqrtu64 <= USED 0
+MlibSrhbiton <= USED 0
+MlibSymIntegral <= USED 0
+MlibSymMulgain <= USED 0
+MlibSymMulgainNolim <= USED 0
+XasmDIVUA <= USED 0
+XasmDIVUB <= USED 0
+XasmDIVUXA <= USED 0
+XasmDIVUXB <= USED 0
+XasmMulhigh32down <= USED 0
+;FILE MsgMngrBoot.o
+;FILE SFlash.o
+SerialRomCheckDataBytes <= USED 0
+SerialRomChipErase <= USED 0
+SerialRomDeepPowerDown <= USED 0
+SerialRomReadDataBytes <= USED 0
+SerialRomReadDataBytes4 <= USED 0
+SerialRomReadID <= USED 0
+SerialRomReadStatusRegister <= USED 0
+SerialRomReleaseDeepPowerDown <= USED 0
+SerialRomWaitReady <= USED 0
+SerialRomWriteDisable <= USED 0
+SerialRomWriteEnable <= USED 0
+;FILE SigmaMemobusBoot.o
+LpxGetMaxNumberOfRdRegisters <= USED 0
+LpxGetMaxNumberOfWrRegisters <= USED 0
+LpxMbusReadMaxNumberOfRegisters <= USED 0
+LpxMbusWriteOneRegister <= USED 0
+LpxRegifRegNoError <= USED 0
+;FILE UsbFuncDriver.o
+UsbFuncChkRcvComp <= USED 0
+UsbFuncChkTrnsComp <= USED 0
+UsbFuncGetRcvSize <= USED 0
+UsbFuncPollBulkOutIn <= USED 0
+UsbFuncPortConfiguration <= USED 0
+UsbFuncResetBuffer <= USED 0
+UsbFuncStartBkin <= USED 0
+UsbFuncStartBkout <= USED 0
+;FILE UsbMsgIF.o
+KriCheckRxUsbMsg <= USED 0
+KriInitUsbHmsg <= USED 0
+KriStartTxUsbMsg <= USED 0
+KriUsbMsgManager <= USED 0
+LpxUsbChkRxMessage <= USED 0
+;FILE adler32.o
+adler32_combine <= USED 0
+adler32_combine64 <= USED 0
+;FILE crc32.o
+crc32_combine <= USED 0
+crc32_combine64 <= USED 0
+;FILE inffast.o
+;FILE inflate.o
+inflateCopy <= USED 0
+inflateGetHeader <= USED 0
+inflateInit_ <= USED 0
+inflateMark <= USED 0
+inflatePrime <= USED 0
+inflateSetDictionary <= USED 0
+inflateSync <= USED 0
+inflateSyncPoint <= USED 0
+inflateUndermine <= USED 0
+;FILE inftrees.o
+;FILE init_SGD7.o
+;FILE ioapi_mem.o
+call_zopen64 <= USED 0
+call_zseek64 <= USED 0
+call_ztell64 <= USED 0
+fill_fopen64_filefunc <= USED 0
+fill_zlib_filefunc64_32_def_from_filefunc32 <= USED 0
+;FILE rt_Memory.o
+;FILE unzMemMng.o
+unzCalloc <= USED 0
+;FILE unzip.o
+unzGetCurrentFileInfo <= USED 0
+unzGetFilePos <= USED 0
+unzGetGlobalComment <= USED 0
+unzGetLocalExtrafield <= USED 0
+unzGetOffset <= USED 0
+unzGoToFilePos <= USED 0
+unzGoToNextFile <= USED 0
+unzLocateFile <= USED 0
+unzOpenCurrentFile <= USED 0
+unzOpenCurrentFile2 <= USED 0
+unzSetOffset <= USED 0
+unzStringFileNameCompare <= USED 0
+unzeof <= USED 0
+unztell <= USED 0
+;FILE zutil.o
+zError <= USED 0
+zlibCompileFlags <= USED 0
+zlibVersion <= USED 0

@@ -1,0 +1,397 @@
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Sat Oct 19 23:56:51 2019
+;VERSION 0.2
+;FILE AccFilter.o
+;FILE AccessSet.o
+;FILE AdcIf.o
+;FILE AdvancedAutoTuning.o
+;FILE AlarmManager.o
+ALMGetNetAlarmNum <= USED 0
+ALMGetNetAlarmTableCode <= USED 0
+ALMGetNetAlarmTableInfo <= USED 0
+ALMGetNetAlarmTraceCode <= USED 0
+ALMGetNetAlarmTraceInfo <= USED 0
+ALMGetNetWarningNum <= USED 0
+ALMGetWarningResetStatus <= USED 0
+ALMSetWarningResetRequest <= USED 0
+OS_AtomicSet <= USED 0
+OS_LockAndLoadMemory <= USED 0
+OS_UnlockAndStoreMemory <= USED 0
+;FILE AlmLatch.o
+;FILE AnalogMonitorCalc.o
+;FILE AnlgRefAutoAdj.o
+;FILE AnlgRefManAdj.o
+RegAnlgTRefManAdjBegin <= USED 0
+RegAnlgTRefManAdjEnd <= USED 0
+RegAnlgTRefManAdjExe <= USED 0
+RegAnlgVRefManAdjBegin <= USED 0
+RegAnlgVRefManAdjEnd <= USED 0
+RegAnlgVRefManAdjExe <= USED 0
+;FILE AnlgTrqRefManAdj.o
+FunAnlgTrqRefManAdjustDisplay <= USED 0
+;FILE AnlgVelRefManAdj.o
+FunAnlgVelRefManAdjustDisplay <= USED 0
+;FILE AutoGainChange.o
+;FILE AutoNotchSet.o
+RpiANotchDisableReqSet <= USED 0
+;FILE BacklashComp.o
+;FILE BaseControlMain.o
+;FILE BaseControlPrmCalc.o
+;FILE BaseControls.o
+;FILE BaseEnableSequence.o
+;FILE BaseLoop.o
+;FILE BprmCalc.o
+;FILE CheckAlarm.o
+AdetCheckDivOverSpeed <= USED 0
+;FILE CheckMotSts.o
+;FILE CmdAnalyzer.o
+;FILE CmdTable.o
+;FILE ComAlmMngr.o
+AlmGetCrtBuf <= USED 0
+AlmGetCrtBufAll <= USED 0
+AlmGetHistory <= USED 0
+AlmGetHistoryAll <= USED 0
+;FILE ComManager.o
+;FILE ComRegMngr.o
+;FILE CtrlPrmTransducer.o
+;FILE DataTraceCalc.o
+;FILE DataTraceManager.o
+;FILE DetectTemperature.o
+;FILE Dma.o
+KpxSifChkRxDma1Tc <= USED 0
+KpxSifChkTxDma1Tc <= USED 0
+KpxSifSetRxDma1 <= USED 0
+KpxSifSetTxDma1 <= USED 0
+KpxSifStartRxDma1 <= USED 0
+KpxSifStartTxDma1 <= USED 0
+KpxSifStopRxDma1 <= USED 0
+KpxSifStopTxDma1 <= USED 0
+KpxStopCpuDMA <= USED 0
+;FILE Eeprom.o
+;FILE EepromIF.o
+EepdevPutQueue <= USED 0
+KriWriteEepromData <= USED 0
+LpxTestEeprom <= USED 0
+;FILE EepromIF_LcdDownload.o
+;FILE EepromIF_PrmDownload.o
+;FILE ExControls.o
+;FILE ExCtrlPrmCalc.o
+;FILE FieldWeakening.o
+;FILE FirmDownload.o
+MbusFuncSysDlInitWork <= USED 0
+;FILE FlashIF.o
+SFlashModeChgSoC <= USED 0
+SFlashReadByteSoC <= USED 0
+;FILE FnAbsScaleSet.o
+;FILE FnAdjustGain.o
+;FILE FnAnlgMonOutputVoltTest.o
+;FILE FnAnlgMonitorAdj.o
+;FILE FnAnlgReferenceAdj.o
+;FILE FnAtypeVibTune.o
+;FILE FnBFanLtRst.o
+;FILE FnDCVoltageAdj.o
+;FILE FnEasyFFT.o
+;FILE FnInitVibDetLv.o
+;FILE FnJatOffLine.o
+;FILE FnJog.o
+;FILE FnMfcTuning.o
+;FILE FnMotorCurrentAdj.o
+FnEnterMotorCurrentGainAdj <= USED 0
+FnExecuteMotorCurrentGainAdj <= USED 0
+;FILE FnMotorPrmDownload.o
+;FILE FnMultiTurnSet.o
+;FILE FnOnePrmTuning.o
+;FILE FnPrgJog.o
+;FILE FnSetTuneLessLvl.o
+;FILE FnSevenSegLedTest.o
+;FILE FnSysConfig.o
+;FILE FnTableCommand.o
+;FILE FnTestMode.o
+;FILE FnVibMonitor.o
+;FILE FullcSerialEncCfg.o
+;FILE FunAAT.o
+;FILE FunAVibSup.o
+;FILE FunAlmHistClr.o
+;FILE FunAlmTrc.o
+;FILE FunBFanLtRst.o
+;FILE FunCurAutoAdj.o
+;FILE FunCurManuAdj.o
+;FILE FunEasyFFT.o
+;FILE FunJog.o
+;FILE FunManager.o
+;FILE FunMngr.o
+RpxPrstFunManager <= USED 0
+;FILE FunMonGainAdj.o
+;FILE FunMonZeroAdj.o
+;FILE FunMotorInfo.o
+;FILE FunMturnClr.o
+;FILE FunMturnLmtSet.o
+;FILE FunOnePrmTun.o
+;FILE FunOptInit.o
+;FILE FunPJog.o
+;FILE FunPoleDetect.o
+;FILE FunPrmInit.o
+;FILE FunRefAAT.o
+;FILE FunRippleComp.o
+;FILE FunSOrigSet.o
+;FILE FunSoftReset.o
+;FILE FunSoftVer.o
+;FILE FunSvMotOpID.o
+;FILE FunTestMode.o
+;FILE FunTuneLvlSet.o
+;FILE FunVMonitor.o
+;FILE FunVibLvlInit.o
+;FILE FunVibSup.o
+;FILE FunZSearch.o
+;FILE GainChange.o
+GselCalculatePrm <= USED 0
+;FILE HwDeviceIf.o
+HALdrv_GetNetworkHardPrm <= USED 0
+HALdrv_GetNorflashRegister <= USED 0
+HALdrv_GetRelayOnAck <= USED 0
+HALdrv_GpioOutput <= USED 0
+HALdrv_ReadBoardID <= USED 0
+HALdrv_ReadMonOutputSignals <= USED 0
+HALdrv_ReadOuputSignals <= USED 0
+HALdrv_ReverceTestPls <= USED 0
+HALdrv_TstOutputPnlLedC <= USED 0
+HALdrv_TstSetPnlLedC <= USED 0
+;FILE InfMngr.o
+RpxPrstInfManager <= USED 0
+;FILE InfoRegCalc.o
+EInfReadYspecVer <= USED 0
+;FILE IniPrmCalc.o
+;FILE IntScanA.o
+;FILE IntScanB.o
+;FILE IntScanC.o
+;FILE Interrupts.o
+;FILE JL086Core.o
+;FILE JL086ServoIpHw.o
+SHal_InitAsicPulseIF <= USED 0
+SHal_PrstAsicB <= USED 0
+SHal_StopMicroProgram <= USED 0
+;FILE JatOffLine.o
+;FILE KLib.o
+GetInterruptTiming <= USED 0
+InitializeInterruptTiming <= USED 0
+KlibGetClockTime <= USED 0
+KlibRstLongCounter <= USED 0
+;FILE LcdOpFun.o
+;FILE LcdOpMain.o
+;FILE LcdOpPrmMon.o
+;FILE LcdPrmCopy.o
+;FILE LifeTimePrediction.o
+AdetCheckPreWarningSigOut <= USED 0
+AvgInternalTemperatureCal <= USED 0
+AvgInternalTemperatureCalInit <= USED 0
+LifeTimeDBSurvivorCalculate <= USED 0
+LifeTimeDBSwitchingCount <= USED 0
+LifeTimeSurvivorCalculateMain <= USED 0
+LifeTimeSwithingCountInit <= USED 0
+;FILE M3MsgIF.o
+;FILE M3StdCmdProc.o
+;FILE M3StdRspProc.o
+;FILE M3TaskIfMain.o
+OpiScanCProcess <= USED 0
+OpiSoftReset <= USED 0
+;FILE MLib.o
+MlibAbsErrchk32 <= USED 0
+MlibAbsErrchk64 <= USED 0
+MlibCheckPowerOf2 <= USED 0
+MlibDivhrem <= USED 0
+MlibDivx3232 <= USED 0
+MlibHsIntegral <= USED 0
+MlibHsMulgain <= USED 0
+MlibHsMulgainNolim <= USED 0
+MlibLpfilter2 <= USED 0
+MlibMulgain30U <= USED 0
+MlibMulgain31U <= USED 0
+MlibMulkprem <= USED 0
+MlibMulkxBiasremOld <= USED 0
+MlibNxfilter2 <= USED 0
+MlibPcalKnf2gain <= USED 0
+MlibPcalKsksks <= USED 0
+MlibPcalKskskx <= USED 0
+MlibPcalbPcmdMaker <= USED 0
+MlibPcmdExpfil <= USED 0
+MlibPcmdLpfil1 <= USED 0
+MlibPcmdNxfil2 <= USED 0
+MlibPfbkxremLim <= USED 0
+MlibRstPcmdMaker <= USED 0
+MlibSatAdd24 <= USED 0
+MlibSatAdd28 <= USED 0
+MlibSatAddu32 <= USED 0
+MlibSqrtu32u32 <= USED 0
+MlibSqrtu64 <= USED 0
+MlibSymIntegral <= USED 0
+MlibSymMulgain <= USED 0
+MlibSymMulgainNolim <= USED 0
+;FILE MemMngr.o
+RpxPrstMemManager <= USED 0
+;FILE MemobusFunctions.o
+;FILE MercuryGlobals.o
+;FILE MercuryMain.o
+;FILE MicroCyclicIf.o
+;FILE MicroPrmCalc.o
+;FILE ModelControl.o
+;FILE MonMngr.o
+RpxPrstMonManager <= USED 0
+;FILE MotorLessTest.o
+;FILE MotorPoleFind.o
+;FILE MotorPrmCfg.o
+FencSencOutputPsoSerial <= USED 0
+RmxSencAdjustMencDivPulse <= USED 0
+SencInitDivPulseIF <= USED 0
+SencOutputPsoSerial <= USED 0
+;FILE MsgMngr.o
+;FILE MtApi.o
+MciRequestMtLatch <= USED 0
+;FILE MtCtrl.o
+;FILE MtGenerator.o
+;FILE MtPRM.o
+MPrmCalcAccTimeRate <= USED 0
+;FILE NetDriver.o
+NdChangeTglBufAddress <= USED 0
+NdGetRecvAltBufferAddress <= USED 0
+NdGetRecvCycBufferPointer <= USED 0
+NdGetRecvCycDevBufAddress <= USED 0
+NdGetSndAltBufferAddress <= USED 0
+NdGetSndCycBufferPointer <= USED 0
+NdGetSndCycDevBufAddress <= USED 0
+;FILE NetworkIdRegCalc.o
+;FILE NetworkIf.o
+MsgIfBackgroundProdedure <= USED 0
+MsgIfInitialize <= USED 0
+MsgIfPollTxRx <= USED 0
+;FILE ObjMngr.o
+RpxInitObjManager <= USED 0
+RpxPrstObjManager <= USED 0
+;FILE OnlineFFT.o
+;FILE OpeMngr.o
+RpxPrstOpeManager <= USED 0
+;FILE OpeRegCalc.o
+fnRamMonitor <= USED 0
+;FILE OverheatManager.o
+;FILE PRMBank.o
+;FILE PcmdFilter.o
+;FILE PnPrmCalc.o
+pncal_b_prm0 <= USED 0
+pncal_convohlvl <= USED 0
+pncal_ifohlvl <= USED 0
+pncal_mbohlvl <= USED 0
+pncal_ohfil <= USED 0
+pncal_ohwrnlvl <= USED 0
+pncal_outsel7 <= USED 0
+;FILE PnlOp.o
+;FILE PosManager.o
+BpiGetCoinLatchSts <= USED 0
+BpiGetMaxOverShoot <= USED 0
+;FILE Position.o
+;FILE PowerManager.o
+;FILE PowerMonitor.o
+;FILE PrmFileDownload.o
+;FILE PrmMngr.o
+LpxPrmLimitCheckPdef <= USED 0
+LpxPrmWriteRam <= USED 0
+RpiPrmWriteRam <= USED 0
+RpxPrstPrmManager <= USED 0
+;FILE ProgramJog.o
+;FILE RamEdit.o
+;FILE RegAccessIf.o
+PrmInitialize <= USED 0
+;FILE RegEdit.o
+;FILE RemVibFreq.o
+;FILE ResVibCtrl.o
+;FILE RippleComp.o
+;FILE Round.o
+;FILE RspManager.o
+;FILE SFlash.o
+SerialRomCheckDataBytes <= USED 0
+SerialRomChipErase <= USED 0
+SerialRomDeepPowerDown <= USED 0
+SerialRomReadDataBytes <= USED 0
+SerialRomReadDataBytes4 <= USED 0
+SerialRomReadID <= USED 0
+SerialRomReadStatusRegister <= USED 0
+SerialRomReleaseDeepPowerDown <= USED 0
+SerialRomWaitReady <= USED 0
+SerialRomWriteDisable <= USED 0
+SerialRomWriteEnable <= USED 0
+;FILE SencScanService.o
+FencSencOutputPaoSerial <= USED 0
+;FILE SequenceIo.o
+;FILE SequenceMain.o
+;FILE SerialEncIf.o
+;FILE SftDiagFunc.o
+GetHwbbSupportSts <= USED 0
+;FILE SifMbus.o
+LpxSifCheckRxDMA <= USED 0
+LpxSifStartRxDMA <= USED 0
+LpxSifStartTxDMA <= USED 0
+LpxSifStopxRxDMA <= USED 0
+;FILE SigmaMemobus.o
+RpxMsgifFuncExecResponse <= USED 0
+RpxMsgifGetCmdMsgSubAddr <= USED 0
+RpxMsgifSendErrResSubAddr <= USED 0
+;FILE Sposing.o
+;FILE SramMemc.o
+InitSRAMMemc <= USED 0
+;FILE SvFbkOpt.o
+;FILE SvOptCardIf.o
+;FILE SvSftOpt.o
+;FILE SystemConfigulation.o
+;FILE TableDrive.o
+TblDriveSetWithTrcReq <= USED 0
+;FILE TuneLib.o
+TuneKvFuncDobLpFil <= USED 0
+;FILE Uart.o
+KpxChkRxError1 <= USED 0
+KpxDisableRx1 <= USED 0
+KpxEnableRx1 <= USED 0
+KpxResetSerial1 <= USED 0
+KpxRstRxSts1 <= USED 0
+KpxSetBrt1 <= USED 0
+KpxSifChkChrRxTimeout1 <= USED 0
+KpxSifChkRxReady1 <= USED 0
+KpxSifChkTxEmpty1 <= USED 0
+KpxStxSwTrg1 <= USED 0
+KpxTxDisable1 <= USED 0
+KpxTxEnable1 <= USED 0
+;FILE UnRegCalc.o
+UnLifeTimeMon <= USED 0
+UnReadAlmLtMonInSig0 <= USED 0
+UnReadAlmLtMonInSig1 <= USED 0
+UnReadAlmLtMonInSig2 <= USED 0
+UnReadAlmLtMonInSig3 <= USED 0
+UnReadAlmLtMonInterSig0 <= USED 0
+UnReadAlmLtMonInterSig1 <= USED 0
+UnReadAlmLtMonInterSig2 <= USED 0
+UnReadAlmLtMonOutSig0 <= USED 0
+UnReadAlmLtMonOutSig1 <= USED 0
+UnReadAlmLtMonOutSig2 <= USED 0
+UnReadDBRelayCnt <= USED 0
+UnReadRelayCnt <= USED 0
+UnReadSpeedFeedForward <= USED 0
+;FILE UsbFuncDriver.o
+;FILE UsbMsgIF.o
+KriInitUsbHmsg <= USED 0
+;FILE jl100s_ini.o
+jl100s_activate_comprm <= USED 0
+jl100s_get_accdrv_ver <= USED 0
+jl100s_swaphl <= USED 0
+jl100s_write_iomap_member <= USED 0
+;FILE jl100s_lnk.o
+jl100s_async_rcv_enable <= USED 0
+jl100s_begin_cyclic_com <= USED 0
+jl100s_change_cbuff <= USED 0
+jl100s_chk_intrp_factor <= USED 0
+jl100s_get_cid <= USED 0
+jl100s_get_crcvstat <= USED 0
+jl100s_get_gblstat <= USED 0
+jl100s_get_rrcvstat <= USED 0
+jl100s_get_stistat <= USED 0
+jl100s_read_gbldata <= USED 0
+jl100s_read_ldata <= USED 0
+jl100s_read_other_ldata <= USED 0
+jl100s_request_wdt <= USED 0
+jl100s_write_ldata <= USED 0
+;FILE jl100s_msg.o

@@ -1,0 +1,12 @@
+#Fri Jun 28 08:35:43 CST 2019
+options.cortexR4.coreTrace.traceRange=false
+options.cortexR4.coreTrace.data=false
+options.cortexR4.coreTrace.data.value=true
+options.cortexR4.coreTrace.cycleAccurate=false
+options.cortexR4.coreTrace.traceRange.end=0xFFFFFFFF
+options.cortexR4.coreTrace=false
+options.cortexR4.coreTrace.triggerhalt=false
+options.trace.traceCapture=none
+options.cortexR4.coreTrace.Cortex_R4_0=true
+options.cortexR4.coreTrace.traceRange.start=0x0
+options.cortexR4.coreTrace.data.address=true

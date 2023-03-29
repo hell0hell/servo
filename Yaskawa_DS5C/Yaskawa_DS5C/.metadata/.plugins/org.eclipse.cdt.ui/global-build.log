@@ -1,0 +1,313 @@
+23:54:51 **** Build of configuration Debug for project 01_Mercury_Platform ****
+make all 
+make: Nothing to be done for `all'.
+23:55:00 **** Incremental Build of configuration Debug for project 01_Mercury_Platform ****
+make all 
+make: Nothing to be done for `all'.
+23:55:02 **** Build of configuration Debug for project 02_SGD7S_AP ****
+make all 
+make: Nothing to be done for `all'.
+23:55:07 **** Build of configuration Debug for project 03_SGD7S_M2 ****
+make all 
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c"
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2/NetMsgDrv.h", line 49: Warning:  #161-D: unrecognized #pragma
+  #pragma section sidata begin
+          ^
+"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2/NetMsgDrv.h", line 70: Warning:  #161-D: unrecognized #pragma
+  #pragma section sidata end
+          ^
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c", line 218: Warning:  #223-D: function "KpxWriteEepromEnable" declared implicitly
+  						KpxWriteEepromEnable(EepNo);	/* Write EEPROM1 or 2 Enable	*//* <S1AC> */
+  						^
+"E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c", line 220: Warning:  #223-D: function "KpxWriteEepromDisable" declared implicitly
+  						KpxWriteEepromDisable(EepNo);	/* Write EEPROM1 or 2 Disable	*//* <S1AC> */
+  						^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c: 9 warnings, 0 errors
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c'
+' '
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/BaseControls/AutoGainChange.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c"
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c: 2 warnings, 0 errors
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c'
+' '
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M2_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\Kernel\Boot\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M2" -I"../../../../00_src\01_Standard\Communications\M2\MLink" -I"../../../../00_src\01_Standard\Communications\M2\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M2" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2" -O1 -Otime --feedback="../03_SGD7S_M2.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/BaseControls/BaseControlPrmCalc.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c"
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+"../../../../00_src\02_Custom\00_SGD7\02_SGD7S_M2/SystemSetting.h", line 325: Warning:  #9-D: nested comment is not allowed
+  #define CSW_HW_CHKRUSH				TRUE	/* ÈÅØ‚àùÔøΩË¨öÔΩµË¨öÈà¥‚ÑÉÈõãÔøΩÂ∑ÆËÆÄÊá∑ÔøΩÈ©ïÔΩ∏Ë¨öÔøΩ*/
+                        				    	^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c: 2 warnings, 0 errors
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c'
+' '
+'Building target: ../../00_Products/Bin/03_SGD7S_M2.axf'
+'Invoking: ARM ÉäÉìÉJ'
+armlink --cpu=Cortex-R4F --fpu=VFPv3_D16 --entry=MercuryMain --scatter="..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat" --feedback="../03_SGD7S_M2.fb" --callgraph --callgraph_file="../../00_Products/Bin/03_SGD7S_M2.html" --map --info=sizes --info=totals --info=stack --list="../../00_Products/Bin/03_SGD7S_M2.list" -o "../../00_Products/Bin/03_SGD7S_M2.axf" "--via=makefile.armlink.inputs"
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 19 (column 19): Warning: L6314W: No section matches pattern NetDriver.o(RO-DATA).
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 101 (column 24): Warning: L6329W: Pattern NetworkIdRegCalc.o(CODE) only matches removed unused sections.
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 102 (column 16): Warning: L6314W: No section matches pattern Stubs.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 110 (column 22): Warning: L6314W: No section matches pattern SPI_EepromDrv.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 111 (column 23): Warning: L6314W: No section matches pattern TrcRegTblIngram.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 112 (column 23): Warning: L6314W: No section matches pattern TuneLessPrmCalc.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 126 (column 21): Warning: L6314W: No section matches pattern EepDefConfig.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\02_SGD7S_M2\Sgd7S_M2.scat", line 128 (column 22): Warning: L6314W: No section matches pattern I2C_EepromDrv.o(CODE).
+Finished: 0 information, 8 warning and 0 error messages.
+'Finished building target: ../../00_Products/Bin/03_SGD7S_M2.axf'
+' '
+make --no-print-directory post-build
+..\makeBin.bat
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>fromelf --bincombined --output=../../00_Products/Bin/03_SGD7S_M2.bin ../../00_Products/Bin/03_SGD7S_M2.axf  
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>fromelf --strip=debug,symbols,comment,notes --elf --output=../../00_Products/Bin/03_SGD7S_M2_div.axf ../../00_Products/Bin/03_SGD7S_M2.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>fromelf --text -a --expandarrays --output=../../00_Products/Bin/03_SGD7S_M2.map ../../00_Products/Bin/03_SGD7S_M2.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>rem çHèÍèoâ◊ópà√çÜâªÉtÉ@ÉCÉãê∂ê¨ 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>rem MakeElfZip  ÉèÅ[ÉNÉpÉX  ì¸óÕÉtÉ@ÉCÉã(.axf)  èoóÕÉtÉ@ÉCÉãñº(ägí£éqÇ»Çµ)  ÉpÉXÉèÅ[Éh 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>..\..\..\..\MakeElfZip.exe  ..\..\00_Products\Bin\  03_SGD7S_M2_div.axf  03_SGD7S_M2_i Initial. 
+creating ..\..\00_Products\Bin\03_SGD7S_M2_i.zip
+file ..\..\00_Products\Bin\03_SGD7S_M2_i_.axf crc 2f8763ed
+File : ..\..\00_Products\Bin\03_SGD7S_M2_i_.axf is 374940 bytes
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>rem à√çÜâªÉtÉ@ÉCÉãê∂ê¨ 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>..\..\..\..\MakeElfZip.exe  ..\..\00_Products\Bin\  03_SGD7S_M2_div.axf  03_SGD7S_M2   M32Jr8A2 
+creating ..\..\00_Products\Bin\03_SGD7S_M2.zip
+file ..\..\00_Products\Bin\03_SGD7S_M2_.axf crc 2f8763ed
+File : ..\..\00_Products\Bin\03_SGD7S_M2_.axf is 374940 bytes
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>rem àÍéûÉtÉ@ÉCÉãçÌèú 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>del ..\..\00_Products\Bin\03_SGD7S_M2_div.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>rem É_ÉEÉìÉçÅ[ÉhópÉtÉ@ÉCÉãê∂ê¨(ëSéÌóﬁ) 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>rem MakeDlFile  ê∂ê¨ÉtÉ@ÉCÉãéwíË  ÉèÅ[ÉNÉpÉX  ÉtÉ@ÉCÉãñº(ägí£éqÇ»Çµ)  ÉpÉXÉèÅ[Éh 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\03_SGD7S_M2\Debug>..\..\..\..\MakeDlFile.exe  3  ..\..\00_Products\Bin\  03_SGD7S_M2  Initial. 
+' '
+23:55:42 **** Build of configuration Debug for project 04_SGD7S_M3 ****
+make all 
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M3_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M3" -I"../../../../00_src\01_Standard\Communications\M3\MLink" -I"../../../../00_src\01_Standard\Communications\M3\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M3" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\03_SGD7S_M3" -O1 -Otime --feedback="../04_SGD7S_M3.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c"
+"E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c", line 218: Warning:  #223-D: function "KpxWriteEepromEnable" declared implicitly
+  						KpxWriteEepromEnable(EepNo);	/* Write EEPROM1 or 2 Enable	*//* <S1AC> */
+  						^
+"E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c", line 220: Warning:  #223-D: function "KpxWriteEepromDisable" declared implicitly
+  						KpxWriteEepromDisable(EepNo);	/* Write EEPROM1 or 2 Disable	*//* <S1AC> */
+  						^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c: 2 warnings, 0 errors
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c'
+' '
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M3_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M3" -I"../../../../00_src\01_Standard\Communications\M3\MLink" -I"../../../../00_src\01_Standard\Communications\M3\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M3" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\03_SGD7S_M3" -O1 -Otime --feedback="../04_SGD7S_M3.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/BaseControls/AutoGainChange.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c"
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c'
+' '
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_M3_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M3" -I"../../../../00_src\01_Standard\Communications\M3\MLink" -I"../../../../00_src\01_Standard\Communications\M3\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M3" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\03_SGD7S_M3" -O1 -Otime --feedback="../04_SGD7S_M3.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/BaseControls/BaseControlPrmCalc.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c"
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c'
+' '
+'Building target: ../../00_Products/Bin/04_SGD7S_M3.axf'
+'Invoking: ARM ÉäÉìÉJ'
+armlink --cpu=Cortex-R4F --fpu=VFPv3_D16 --entry=MercuryMain --scatter="..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat" --feedback="../04_SGD7S_M3.fb" --callgraph --callgraph_file="../../00_Products/Bin/04_SGD7S_M3.html" --map --info=sizes --info=totals --info=stack --list="../../00_Products/Bin/04_SGD7S_M3.list" -o "../../00_Products/Bin/04_SGD7S_M3.axf" "--via=makefile.armlink.inputs"
+"..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat", line 105 (column 16): Warning: L6314W: No section matches pattern Stubs.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat", line 113 (column 22): Warning: L6314W: No section matches pattern SPI_EepromDrv.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat", line 114 (column 23): Warning: L6314W: No section matches pattern TrcRegTblIngram.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat", line 115 (column 23): Warning: L6314W: No section matches pattern TuneLessPrmCalc.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat", line 129 (column 21): Warning: L6314W: No section matches pattern EepDefConfig.o(CODE).
+"..\..\..\..\00_src\02_Custom\00_SGD7\03_SGD7S_M3\Sgd7S_M3.scat", line 131 (column 22): Warning: L6314W: No section matches pattern I2C_EepromDrv.o(CODE).
+Finished: 0 information, 6 warning and 0 error messages.
+'Finished building target: ../../00_Products/Bin/04_SGD7S_M3.axf'
+' '
+make --no-print-directory post-build
+..\makeBin.bat
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>fromelf --bincombined --output=../../00_Products/Bin/04_SGD7S_M3.bin ../../00_Products/Bin/04_SGD7S_M3.axf  
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>fromelf --strip=debug,symbols,comment,notes --elf --output=../../00_Products/Bin/04_SGD7S_M3_div.axf ../../00_Products/Bin/04_SGD7S_M3.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>fromelf --text -a --expandarrays --output=../../00_Products/Bin/04_SGD7S_M3.map ../../00_Products/Bin/04_SGD7S_M3.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>rem çHèÍèoâ◊ópà√çÜâªÉtÉ@ÉCÉãê∂ê¨ 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>rem MakeElfZip  ÉèÅ[ÉNÉpÉX  ì¸óÕÉtÉ@ÉCÉã(.axf)  èoóÕÉtÉ@ÉCÉãñº(ägí£éqÇ»Çµ)  ÉpÉXÉèÅ[Éh 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>..\..\..\..\MakeElfZip.exe  ..\..\00_Products\Bin\  04_SGD7S_M3_div.axf  04_SGD7S_M3_i Initial. 
+creating ..\..\00_Products\Bin\04_SGD7S_M3_i.zip
+file ..\..\00_Products\Bin\04_SGD7S_M3_i_.axf crc e5ea3165
+File : ..\..\00_Products\Bin\04_SGD7S_M3_i_.axf is 415348 bytes
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>rem à√çÜâªÉtÉ@ÉCÉãê∂ê¨ 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>..\..\..\..\MakeElfZip.exe  ..\..\00_Products\Bin\  04_SGD7S_M3_div.axf  04_SGD7S_M3   MRGOtR63 
+creating ..\..\00_Products\Bin\04_SGD7S_M3.zip
+file ..\..\00_Products\Bin\04_SGD7S_M3_.axf crc e5ea3165
+File : ..\..\00_Products\Bin\04_SGD7S_M3_.axf is 415348 bytes
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>rem àÍéûÉtÉ@ÉCÉãçÌèú 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>del ..\..\00_Products\Bin\04_SGD7S_M3_div.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>rem É_ÉEÉìÉçÅ[ÉhópÉtÉ@ÉCÉãê∂ê¨(ëSéÌóﬁ) 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>rem MakeDlFile  ê∂ê¨ÉtÉ@ÉCÉãéwíË  ÉèÅ[ÉNÉpÉX  ÉtÉ@ÉCÉãñº(ägí£éqÇ»Çµ)  ÉpÉXÉèÅ[Éh 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\04_SGD7S_M3\Debug>..\..\..\..\MakeDlFile.exe  3  ..\..\00_Products\Bin\  04_SGD7S_M3  Initial. 
+' '
+23:56:14 **** Build of configuration Debug for project 05_SGD7S_CM ****
+make all 
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_CM_TYPE -Dxxx_NON_EEPROM_ -Dxxx_USB_FUNC_USE_ -DxxxCSW_MICRO_DEBUG_MODE -Dxxx_ASIP_DEBUG_BUF_USE_ -DSVFIF_CMDOPT -D_CMDOPT_OPE_DBG_ -D_CMDOPT_ALM_DBG_ -DMCCSW_SGDVCMOP -I"../../../../00_src\00_Bsp\JL086_bsp" -I"../../../../00_src\00_Bsp\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications/DPM" -I"../../../../00_src\01_Standard\Communications/DPM/XlsTbl" -I"../../../../00_src\01_Standard\Communications/DPM/Mlink" -I"../../../../00_src\01_Standard\Communications/DPM/Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\04_SGD7S_CM" -I"../../../../00_src\00_Bsp\ARM9_bsp\driver\cpu" -I"../../../../00_src\00_Bsp\ARM9_bsp\driver\intc" -I"../../../../00_src\00_Bsp\ARM9_bsp\include" -O1 -Otime --feedback="../05_SGD7S_CM.fb" -g --md --depend_format=unix_escaped -c -o "00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c"
+Warning: C4052E: couldn't read file '../05_SGD7S_CM.fb': No such file or directory
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 179: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfInitialize(NETMSG_IF *NetMsgIf, MEMOBUS_ADDR_MAP *AddrMap, 
+                       ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 181: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfPollTxRx(NETMSG_IF *NetMsgIf);
+                     ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 182: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfPollScanB(NETMSG_IF *NetMsgIf);	/* <USB-FUNCTION> 2013.05.12 K.Sakamoto */
+                      ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 183: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfBackgroundProdedure(NETMSG_IF *NetMsgIf);
+                                ^
+"../../../../00_src\01_Standard\BaseControls/BaseControls.h", line 38: Error:  #5: cannot open source input file "MotorLessTestStr.h": No such file or directory
+  #include "MotorLessTestStr.h"	/* <S1B7> */
+                               	            ^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c: 0 warnings, 5 errors
+make: *** [00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.o] Error 1
+23:56:23 **** Build of configuration Debug for project 06_SGD7W_M3 ****
+make all 
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_SGD7W_TYPE -DCSW_NETIF_M3_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M3" -I"../../../../00_src\01_Standard\Communications\M3\MLink" -I"../../../../00_src\01_Standard\Communications\M3\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M3" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\05_SGD7W_M3" -O1 -Ospace --feedback="../06_SGD7W_M3.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c"
+"E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c", line 218: Warning:  #223-D: function "KpxWriteEepromEnable" declared implicitly
+  						KpxWriteEepromEnable(EepNo);	/* Write EEPROM1 or 2 Enable	*//* <S1AC> */
+  						^
+"E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c", line 220: Warning:  #223-D: function "KpxWriteEepromDisable" declared implicitly
+  						KpxWriteEepromDisable(EepNo);	/* Write EEPROM1 or 2 Disable	*//* <S1AC> */
+  						^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c: 2 warnings, 0 errors
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/Kernel/Driver/EepromIF_PrmDownload.c'
+' '
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_SGD7W_TYPE -DCSW_NETIF_M3_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M3" -I"../../../../00_src\01_Standard\Communications\M3\MLink" -I"../../../../00_src\01_Standard\Communications\M3\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M3" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\05_SGD7W_M3" -O1 -Ospace --feedback="../06_SGD7W_M3.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/BaseControls/AutoGainChange.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c"
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/AutoGainChange.c'
+' '
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_SGD7W_TYPE -DCSW_NETIF_M3_TYPE -I"../../../../00_src\00_Bsp\\JL086_bsp" -I"../../../../00_src\00_Bsp\\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications\M3" -I"../../../../00_src\01_Standard\Communications\M3\MLink" -I"../../../../00_src\01_Standard\Communications\M3\Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\M3" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I../../../../00_src/01_Standard/Kernel/ScanA -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\AnalogMonitor" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\05_SGD7W_M3" -O1 -Ospace --feedback="../06_SGD7W_M3.fb" -g --signed_chars --md --depend_format=unix_escaped -c -o "00_src/01_Standard/BaseControls/BaseControlPrmCalc.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c"
+'Finished building: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/01_Standard/BaseControls/BaseControlPrmCalc.c'
+' '
+'Building target: ../../00_Products/Bin/06_SGD7W_M3.axf'
+'Invoking: ARM ÉäÉìÉJ'
+armlink --cpu=Cortex-R4F --fpu=VFPv3_D16 --entry=MercuryMain --scatter="..\..\..\..\00_src\02_Custom\00_SGD7\05_SGD7W_M3\Sgd7W_M3.scat" --feedback="../06_SGD7W_M3.fb" --callgraph --callgraph_file="../../00_Products/Bin/06_SGD7W_M3.html" --map --info=sizes --info=totals --info=stack --list="../../00_Products/Bin/06_SGD7W_M3.list" -o "../../00_Products/Bin/06_SGD7W_M3.axf" "--via=makefile.armlink.inputs"
+'Finished building target: ../../00_Products/Bin/06_SGD7W_M3.axf'
+' '
+make --no-print-directory post-build
+..\makeBin.bat
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>fromelf --bincombined --output=../../00_Products/Bin/06_SGD7W_M3.bin ../../00_Products/Bin/06_SGD7W_M3.axf  
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>fromelf --strip=debug,symbols,comment,notes --elf --output=../../00_Products/Bin/06_SGD7W_M3_div.axf ../../00_Products/Bin/06_SGD7W_M3.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>fromelf --text -a --expandarrays --output=../../00_Products/Bin/06_SGD7W_M3.map ../../00_Products/Bin/06_SGD7W_M3.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>rem çHèÍèoâ◊ópà√çÜâªÉtÉ@ÉCÉãê∂ê¨ 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>rem MakeElfZip  ÉèÅ[ÉNÉpÉX  ì¸óÕÉtÉ@ÉCÉã(.axf)  èoóÕÉtÉ@ÉCÉãñº(ägí£éqÇ»Çµ)  ÉpÉXÉèÅ[Éh 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>..\..\..\..\MakeElfZip.exe  ..\..\00_Products\Bin\  06_SGD7W_M3_div.axf  06_SGD7W_M3_i Initial. 
+creating ..\..\00_Products\Bin\06_SGD7W_M3_i.zip
+file ..\..\00_Products\Bin\06_SGD7W_M3_i_.axf crc 2c14a97e
+File : ..\..\00_Products\Bin\06_SGD7W_M3_i_.axf is 391400 bytes
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>rem à√çÜâªÉtÉ@ÉCÉãê∂ê¨ 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>..\..\..\..\MakeElfZip.exe  ..\..\00_Products\Bin\  06_SGD7W_M3_div.axf  06_SGD7W_M3   MWPTY33W 
+creating ..\..\00_Products\Bin\06_SGD7W_M3.zip
+file ..\..\00_Products\Bin\06_SGD7W_M3_.axf crc 2c14a97e
+File : ..\..\00_Products\Bin\06_SGD7W_M3_.axf is 391400 bytes
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>rem àÍéûÉtÉ@ÉCÉãçÌèú 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>del ..\..\00_Products\Bin\06_SGD7W_M3_div.axf 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>rem É_ÉEÉìÉçÅ[ÉhópÉtÉ@ÉCÉãê∂ê¨(ëSéÌóﬁ) 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>rem MakeDlFile  ê∂ê¨ÉtÉ@ÉCÉãéwíË  ÉèÅ[ÉNÉpÉX  ÉtÉ@ÉCÉãñº(ägí£éqÇ»Çµ)  ÉpÉXÉèÅ[Éh 
+
+E:\Yaskawa_DS5C\Mercury_Projects_org\10_Projects\00_Standard\06_SGD7W_M3\Debug>..\..\..\..\MakeDlFile.exe  3  ..\..\00_Products\Bin\  06_SGD7W_M3  Initial. 
+' '
+10:53:40 **** Incremental Build of configuration Debug for project 01_Mercury_Platform ****
+make all 
+make: Nothing to be done for `all'.
+10:53:44 **** Incremental Build of configuration Debug for project 02_SGD7S_AP ****
+make all 
+make: Nothing to be done for `all'.
+10:53:50 **** Incremental Build of configuration Debug for project 03_SGD7S_M2 ****
+make all 
+make: Nothing to be done for `all'.
+10:53:55 **** Incremental Build of configuration Debug for project 04_SGD7S_M3 ****
+make all 
+make: Nothing to be done for `all'.
+10:54:00 **** Incremental Build of configuration Debug for project 05_SGD7S_CM ****
+make all 
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c'
+'Invoking: ARM C ÉRÉìÉpÉCÉâ'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_CM_TYPE -Dxxx_NON_EEPROM_ -Dxxx_USB_FUNC_USE_ -DxxxCSW_MICRO_DEBUG_MODE -Dxxx_ASIP_DEBUG_BUF_USE_ -DSVFIF_CMDOPT -D_CMDOPT_OPE_DBG_ -D_CMDOPT_ALM_DBG_ -DMCCSW_SGDVCMOP -I"../../../../00_src\00_Bsp\JL086_bsp" -I"../../../../00_src\00_Bsp\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications/DPM" -I"../../../../00_src\01_Standard\Communications/DPM/XlsTbl" -I"../../../../00_src\01_Standard\Communications/DPM/Mlink" -I"../../../../00_src\01_Standard\Communications/DPM/Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\04_SGD7S_CM" -I"../../../../00_src\00_Bsp\ARM9_bsp\driver\cpu" -I"../../../../00_src\00_Bsp\ARM9_bsp\driver\intc" -I"../../../../00_src\00_Bsp\ARM9_bsp\include" -O1 -Otime --feedback="../05_SGD7S_CM.fb" -g --md --depend_format=unix_escaped -c -o "00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c"
+Warning: C4052E: couldn't read file '../05_SGD7S_CM.fb': No such file or directory
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 179: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfInitialize(NETMSG_IF *NetMsgIf, MEMOBUS_ADDR_MAP *AddrMap, 
+                       ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 181: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfPollTxRx(NETMSG_IF *NetMsgIf);
+                     ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 182: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfPollScanB(NETMSG_IF *NetMsgIf);	/* <USB-FUNCTION> 2013.05.12 K.Sakamoto */
+                      ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 183: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfBackgroundProdedure(NETMSG_IF *NetMsgIf);
+                                ^
+"../../../../00_src\01_Standard\BaseControls/BaseControls.h", line 38: Error:  #5: cannot open source input file "MotorLessTestStr.h": No such file or directory
+  #include "MotorLessTestStr.h"	/* <S1B7> */
+                               	            ^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c: 0 warnings, 5 errors
+make: *** [00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.o] Error 1
+10:54:05 **** Incremental Build of configuration Debug for project 06_SGD7W_M3 ****
+make all 
+make: Nothing to be done for `all'.

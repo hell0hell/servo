@@ -1,0 +1,71 @@
+;; Scatter file (Core Tile for R4F - Emulation board)
+;; REMAP = 000
+
+
+LOAD_BOOT 0xFFFF0000 0x10000		; Boot
+{
+    Boot 0xFFFF0000 0x10000
+    {
+        * (Start, +First)     		   ; Startup Code
+;        Interrupts.o	(+CODE)
+;        Eeprom.o		(+CODE)
+;        KLib.o			(+CODE)
+;        MLib.o			(+CODE)
+;        UsbFuncDriver.o	(+CODE,+RO-DATA)
+;        UsbMsgIf.o		(+CODE,+RO-DATA)
+;        InterruptTbl.o	(+RO-DATA)
+;;        crc32.o			(+RO-DATA)	; Flashに置くと遅くなる
+;        inflate.o		(+RO-DATA)
+;        inftrees.o		(+RO-DATA)
+    }
+    
+;;	ELFLOAD_CODE 0x68078000 0x8000 ; AXIRAM 32KB for Code & RO Data
+;	ELFLOAD_CODE 0x68058000 0x8000 ; AXIRAM 32KB for Code & RO Data
+	ELFLOAD_CODE 0x68050000 0x10000 ; AXIRAM 32KB for Code & RO Data
+	{
+		* (+CODE)
+		* (+RO-DATA)
+	}
+}
+
+LOAD_SERVO_MICRO_DATA 0xFFE70000 0x5000		; servo micro program
+{
+    SERVO_MICRO_DATA 0xFFE70000 0x5000
+    {
+        MprgJL086.o (MICRO_TABLE_SIZE, +FIRST)     ; micro program size
+        MprgJL086.o (MICRO_TABLE_DATA)
+        MpConstTbl.o (MICRO_TABLE_OVDATA)
+    }
+}
+
+LOAD_SERVO_W_MICRO_DATA 0xFFE75000 0x7000		; servo micro program
+{
+    SERVO_W_MICRO_DATA 0xFFE75000 0x7000
+    {
+        MprgJL086_w.o (MICRO_W_TABLE_SIZE, +FIRST)     ; micro program size
+        MprgJL086_w.o (MICRO_W_TABLE_DATA)
+    }
+}
+
+LOAD_M3_MICRO_DATA 0xFFE7C000 0x4000		; M3 micro program
+{
+    M3_MICRO_DATA 0xFFE7C000 0x4000
+    {
+        * (M3_MICRO_TABLE_SIZE, +FIRST)     ; micro program size
+        * (M3_MICRO_TABLE_DATA)
+    }
+}
+
+;;LOAD_ELFLOAD 0x6806C000 0x14000	; 80KB Runtime area
+;LOAD_ELFLOAD 0x6804C000 0x0C000	; 80KB Runtime area
+LOAD_ELFLOAD 0x68040000 0x10000	; 80KB Runtime area
+{
+	
+;;	ELFLOAD_DATA 0x6806C000 0xC000 ; AXIRAM 48KB for DATA 
+;;	ELFLOAD_DATA 0x6804C000 0xC000 ; AXIRAM 48KB for DATA 
+	ELFLOAD_DATA 0x68040000 0x10000 ; AXIRAM 48KB for DATA 
+    {
+	   	*	(+RW,+ZI)
+    }
+}
+	

@@ -1,0 +1,6 @@
+10:53:50 **** Incremental Build of configuration Debug for project 03_SGD7S_M2 ****
+make all 
+make: Nothing to be done for `all'.
+
+10:53:53 Build Finished (took 2s.633ms)
+

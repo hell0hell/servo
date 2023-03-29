@@ -1,0 +1,209 @@
+Component: ARM Compiler 5.05 (build 41) Tool: armlink [4d0eb9]
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0xffff0020
+
+  Load Region LOAD_BOOT (Base: 0xffff0000, Size: 0x00009148, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ELFLOAD_CODE (Base: 0x68050000, Size: 0x00008e08, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x68050000   0x000008b8   Code   RO            1    .text               FirmDownload.o
+    0x680508b8   0x00000178   Code   RO           66    .text               MsgMngrBoot.o
+    0x68050a30   0x0000023c   Code   RO           82    .text               SigmaMemobusBoot.o
+    0x68050c6c   0x00000170   Code   RO          134    .text               KLib.o
+    0x68050ddc   0x00000194   Code   RO          309    .text               MLib.o
+    0x68050f70   0x000001ac   Code   RO          846    .text               adler32.o
+    0x6805111c   0x000005ae   Code   RO          894    .text               crc32.o
+    0x680516ca   0x00000002   PAD
+    0x680516cc   0x00000394   Code   RO          939    .text               inffast.o
+    0x68051a60   0x000012f8   Code   RO          957    .text               inflate.o
+    0x68052d58   0x000003ec   Code   RO         1029    .text               inftrees.o
+    0x68053144   0x00000012   Code   RO         1048    .text               zutil.o
+    0x68053156   0x00000094   Code   RO         1088    .text               rt_Memory.o
+    0x680531ea   0x00000002   PAD
+    0x680531ec   0x00000020   Code   RO         1102    .text               unzMemMng.o
+    0x6805320c   0x000000b8   Code   RO         1128    .text               ioapi_mem.o
+    0x680532c4   0x0000002a   Code   RO         1130    .text               ioapi_mem.o
+    0x680532ee   0x00000032   Code   RO         1131    .text               ioapi_mem.o
+    0x68053320   0x0000000c   Code   RO         1134    .text               ioapi_mem.o
+    0x6805332c   0x00000004   Code   RO         1135    .text               ioapi_mem.o
+    0x68053330   0x00000d18   Code   RO         1224    .text               unzip.o
+    0x68054048   0x000002d0   Code   RO         1345    .text               Eeprom.o
+    0x68054318   0x00000010   Code   RO         1369    .text               HwDeviceIf.o
+    0x68054328   0x000000b8   Code   RO         1432    .text               FlashIF.o
+    0x680543e0   0x0000022c   Code   RO         1464    .text               UsbMsgIF.o
+    0x6805460c   0x0000008c   Code   RO         1550    .text               Interrupts.o
+    0x68054698   0x0000008c   Code   RO         1572    .text               JL086Core.o
+    0x68054724   0x000000c4   Code   RO         1584    .text               SFlash.o
+    0x680547e8   0x00001314   Code   RO         1668    .text               UsbFuncDriver.o
+    0x68055afc   0x00000498   Code   RO         1691    .text               elf.o
+    0x68055f94   0x00000088   Code   RO         1738    .text               c_2.l(rt_memcpy_v6.o)
+    0x6805601c   0x0000000c   Code   RO         1740    .text               c_2.l(memcpy.o)
+    0x68056028   0x00000064   Code   RO         1742    .text               c_2.l(rt_memcpy_w.o)
+    0x6805608c   0x00000044   Code   RO         1744    .text               c_2.l(rt_memclr.o)
+    0x680560d0   0x0000004e   Code   RO         1762    .text               c_2.l(rt_memclr_w.o)
+    0x6805611e   0x00000002   PAD
+    0x68056120   0x00002000   Data   RO          900    .constdata          crc32.o
+    0x68058120   0x000008a6   Data   RO          968    .constdata          inflate.o
+    0x680589c6   0x000000fc   Data   RO         1031    .constdata          inftrees.o
+    0x68058ac2   0x00000134   Data   RO         1670    .constdata          UsbFuncDriver.o
+    0x68058bf6   0x00000010   Data   RO         1693    .constdata          elf.o
+    0x68058c06   0x00000002   PAD
+    0x68058c08   0x00000200   Data   RO         1528    INIT_VECT_DATA      InterruptTbl.o
+
+
+    Execution Region Boot (Base: 0xffff0000, Size: 0x00000340, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0xffff0000   0x00000330   Code   RO         1730  * Start               init_SGD7.o
+    0xffff0330   0x00000008   Ven    RO         1812    Veneer$$Code        anon$$obj.o
+    0xffff0338   0x00000008   Ven    RO         1813    Veneer$$Code        anon$$obj.o
+
+
+
+  Load Region LOAD_SERVO_MICRO_DATA (Base: 0xffe70000, Size: 0x0000262c, Max: 0x00005000, ABSOLUTE)
+
+    Execution Region SERVO_MICRO_DATA (Base: 0xffe70000, Size: 0x0000262c, Max: 0x00005000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0xffe70000   0x00000004   Data   RO         1513    MICRO_TABLE_SIZE    MprgJL086.o
+    0xffe70004   0x000025a8   Data   RO         1512    MICRO_TABLE_DATA    MprgJL086.o
+    0xffe725ac   0x00000040   Data   RO         1502    MICRO_TABLE_OVDATA  MpConstTbl.o
+    0xffe725ec   0x00000040   Data   RO         1503    MICRO_TABLE_OVDATA  MpConstTbl.o
+
+
+
+  Load Region LOAD_SERVO_W_MICRO_DATA (Base: 0xffe75000, Size: 0x000057cc, Max: 0x00007000, ABSOLUTE)
+
+    Execution Region SERVO_W_MICRO_DATA (Base: 0xffe75000, Size: 0x000057cc, Max: 0x00007000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0xffe75000   0x00000004   Data   RO         1521    MICRO_W_TABLE_SIZE  MprgJL086_w.o
+    0xffe75004   0x000057c8   Data   RO         1520    MICRO_W_TABLE_DATA  MprgJL086_w.o
+
+
+
+  Load Region LOAD_M3_MICRO_DATA (Base: 0xffe7c000, Size: 0x00002d54, Max: 0x00004000, ABSOLUTE)
+
+    Execution Region M3_MICRO_DATA (Base: 0xffe7c000, Size: 0x00002d54, Max: 0x00004000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0xffe7c000   0x00000002   Data   RO         1338    M3_MICRO_TABLE_SIZE  jl100micro.o
+    0xffe7c002   0x00002d50   Data   RO         1337    M3_MICRO_TABLE_DATA  jl100micro.o
+
+
+
+  Load Region LOAD_ELFLOAD (Base: 0x68040000, Size: 0x00000018, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ELFLOAD_DATA (Base: 0x68040000, Size: 0x0000b438, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x68040000   0x00000008   Data   RW         1435    .data               FlashIF.o
+    0x68040008   0x00000006   Data   RW         1477    .data               UsbMsgIF.o
+    0x6804000e   0x00000002   PAD
+    0x68040010   0x00000004   Data   RW         1671    .data               UsbFuncDriver.o
+    0x68040014   0x00000002   Data   RW         1694    .data               elf.o
+    0x68040016   0x00000002   PAD
+    0x68040018   0x00000048   Zero   RW            2    .bss                FirmDownload.o
+    0x68040060   0x00000034   Zero   RW           67    .bss                MsgMngrBoot.o
+    0x68040094   0x0000a800   Zero   RW         1104    .bss                unzMemMng.o
+    0x6804a894   0x00000440   Zero   RW         1466    .bss                UsbMsgIF.o
+    0x6804acd4   0x000000e4   Zero   RW         1669    .bss                UsbFuncDriver.o
+    0x6804adb8   0x00000680   Zero   RW         1692    .bss                elf.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       720         14          0          0          0       3173   Eeprom.o
+      2232         90          0          0         72      30888   FirmDownload.o
+       184          4          0          8          0       2364   FlashIF.o
+        16          4          0          0          0        653   HwDeviceIf.o
+         0          0        512          0          0       4334   InterruptTbl.o
+       140          8          0          0          0        892   Interrupts.o
+       140          8          0          0          0        925   JL086Core.o
+       368         20          0          0          0       6944   KLib.o
+       404          0          0          0          0      10782   MLib.o
+         0          0        128          0          0        758   MpConstTbl.o
+         0          0       9644          0          0        559   MprgJL086.o
+         0          0      22476          0          0        565   MprgJL086_w.o
+       376          8          0          0         52       3092   MsgMngrBoot.o
+       196          6          0          0          0       2018   SFlash.o
+       572        132          0          0          0       3289   SigmaMemobusBoot.o
+      4884         72        308          4        228      24198   UsbFuncDriver.o
+       556         20          0          6       1088      10425   UsbMsgIF.o
+       428          0          0          0          0       5562   adler32.o
+      1454          4       8192          0          0       4198   crc32.o
+      1176         46         16          2       1664      28684   elf.o
+       916         84          0          0          0       4951   inffast.o
+      4856        576       2214          0          0       9254   inflate.o
+      1004         14        252          0          0       4016   inftrees.o
+       816         60          0          0          0        716   init_SGD7.o
+       292         28          0          0          0      12146   ioapi_mem.o
+         0          0      11602          0          0        542   jl100micro.o
+       148          0          0          0          0       2887   rt_Memory.o
+        32          6          0          0      43008       3209   unzMemMng.o
+      3352         32          0          0          0      15880   unzip.o
+        18          0          0          0          0        905   zutil.o
+
+    ----------------------------------------------------------------------
+     25300       1244      55348         24      46112     198809   Object Totals
+        16          8          0          0          0          0   (incl. Generated)
+         4          0          4          4          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+        12          0          0          0          0         76   memcpy.o
+        68          0          0          0          0         68   rt_memclr.o
+        78          0          0          0          0         80   rt_memclr_w.o
+       136          0          0          0          0         68   rt_memcpy_v6.o
+       100          0          0          0          0         80   rt_memcpy_w.o
+
+    ----------------------------------------------------------------------
+       396          0          0          0          0        372   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       394          0          0          0          0        372   c_2.l
+
+    ----------------------------------------------------------------------
+       396          0          0          0          0        372   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     25696       1244      55348         24      46112     195473   Grand Totals
+     25696       1244      55348         24      46112     195473   ELF Image Totals
+     25696       1244      55348         24          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                81044 (  79.14kB)
+    Total RW  Size (RW Data + ZI Data)             46136 (  45.05kB)
+    Total ROM Size (Code + RO Data + RW Data)      81068 (  79.17kB)
+
+==============================================================================
+

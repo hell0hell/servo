@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\MotorModel">
+      <UniqueIdentifier>{f47ae76e-53e6-4024-b275-bc0b6d5f31da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MpgDebug">
+      <UniqueIdentifier>{150f42ac-23c8-4247-a31c-fee4b5cbc537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard">
+      <UniqueIdentifier>{3164b6c6-af9b-421d-9a36-a73f873f8fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Custom">
+      <UniqueIdentifier>{3dff581b-a674-4a36-9748-09b75e629a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\BaseControls">
+      <UniqueIdentifier>{ed7e7044-87ab-47a4-b039-0e2db007bda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\BaseSequences">
+      <UniqueIdentifier>{d1abb83e-8a36-4474-acca-170d52268ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Communications">
+      <UniqueIdentifier>{be42bd4b-8426-4afd-8ea9-238ac94c46a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\MicroProgram">
+      <UniqueIdentifier>{387f0a21-e442-4c28-92c1-254d87282e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Custom\00_SGD7">
+      <UniqueIdentifier>{c74e0f10-89e0-4f27-8159-f65be4cd98e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Communications\M3">
+      <UniqueIdentifier>{97245e18-9dbe-444d-8e31-3d423ac7c993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Communications\M3\Motion">
+      <UniqueIdentifier>{d5e864e2-6a26-48f6-937b-c5f5f4569514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Communications\M3\Mlink">
+      <UniqueIdentifier>{c5156384-d76a-4c85-915b-669673f2e0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel">
+      <UniqueIdentifier>{8bfed728-e3eb-4d03-a39c-e5d414473e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Boot">
+      <UniqueIdentifier>{aea3fd98-cfd8-479a-9d2f-7f089e12b362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Driver">
+      <UniqueIdentifier>{06bd48e3-3217-4398-89b0-ecdc8a52a0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Include">
+      <UniqueIdentifier>{8f343b92-70ab-4b65-acc1-7248cad27167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Lib">
+      <UniqueIdentifier>{568091ad-7764-42a8-9040-6796a3832a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round">
+      <UniqueIdentifier>{263e6bd0-cc4f-4c5a-acf6-2c085fabe6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\ScanA">
+      <UniqueIdentifier>{6a6061e9-aa2d-47be-aabf-4f4749ee2b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\ScanB">
+      <UniqueIdentifier>{141f4d58-5a80-4718-af14-f0c5394f44c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\ScanC">
+      <UniqueIdentifier>{250cc11d-3c0d-46af-b306-8fc2b347a164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Boot\Config">
+      <UniqueIdentifier>{1b046c33-3bfe-460e-b13b-2ee0ab884754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Driver\HAL">
+      <UniqueIdentifier>{62379ca9-0ebb-4530-a101-9c2c0d0e1645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv">
+      <UniqueIdentifier>{cdbeef6a-57d8-4430-9871-c5c16570fafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086">
+      <UniqueIdentifier>{931fec6c-96b1-4536-928d-603c743b006f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round\Apl">
+      <UniqueIdentifier>{a4deb6c6-86f0-4959-b62e-c479e8093966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round\Core">
+      <UniqueIdentifier>{44c56c92-1cc1-4495-bd19-63aff802f071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round\MsgIf">
+      <UniqueIdentifier>{8ea934b8-18b3-4210-8986-e20021f7255b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round\OpeIf">
+      <UniqueIdentifier>{47703551-8883-449a-a598-d9da16628506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round\Registers">
+      <UniqueIdentifier>{edea17c7-30be-4214-877c-325cf5ba883f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Round\UtilityFuns">
+      <UniqueIdentifier>{68947f1d-2ef6-4acf-8947-a1f7f050311a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Custom\00_SGD7\00_SpecCommon">
+      <UniqueIdentifier>{8932bfbe-739d-464e-9c8a-3552c5b2cd5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\DataTrace">
+      <UniqueIdentifier>{6efaab6d-9901-4b81-9080-c02e72e66705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\Registers">
+      <UniqueIdentifier>{a33e5291-a640-4711-ae06-f33ff7b4e7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4">
+      <UniqueIdentifier>{6d65c54c-1391-45da-83e5-4c5d7459ee2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MotorModel\MotorModel.c">
+      <Filter>ソース ファイル\MotorModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MpgDebug\RomTable.c">
+      <Filter>ソース ファイル\MpgDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="MpgDebug\IlibSvc.c">
+      <Filter>ソース ファイル\MpgDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="MpgDebug\IxInst.c">
+      <Filter>ソース ファイル\MpgDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="MpgDebug\MpgTstMain.c">
+      <Filter>ソース ファイル\MpgDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="MpgDebug\MprgSgdv.c">
+      <Filter>ソース ファイル\MpgDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="MpgDebug\Global.c">
+      <Filter>ソース ファイル\MpgDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ProgramJog.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ResVibCtrl.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\TableDrive.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BacklashComp.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseControlPrmCalc.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseControls.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseLoop.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BprmCalc.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\FieldWeakening.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\GainChange.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\JatOffLine.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\MicroCyclicIf.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\MicroPrmCalc.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ModelControl.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\MotorPoleFind.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\PosManager.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\SequenceIo.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\BaseEnableSequence.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\CheckAlarm.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\CheckMotSts.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\PowerManager.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\RemVibFreq.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\MicroProgram\MprgIngram.c">
+      <Filter>ソース ファイル\01_Standard\MicroProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\MicroProgram\MprgJL086.c">
+      <Filter>ソース ファイル\01_Standard\MicroProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\m3_bootloader.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdAnalyzer.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdTable.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComAlmMngr.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComManager.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComRegMngr.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdCmdProc.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdRspProc.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\MLink\RspManager.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\AccFilter.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtApi.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtCtrl.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtGenerator.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtPRM.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\Position.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\Motion\Sposing.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\MercuryMain.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Boot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\Config\IniPrmCalc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Boot\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\Config\MercuryGlobals.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Boot\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Boot\Config\SystemConfigulation.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Boot\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\EepDefConfig.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\EepromIF.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\FlashIF.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\MotorPrmCfg.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\NetworkIf.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\SencScanService.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\UsbMsgIF.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\VirSif.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Dma.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Eeprom.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\HwDeviceIf.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\SPI_EepromDrv.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Uart.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\uDMATransfer.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\I2C_EepromDrv.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\JL086ServoIpHw.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\SerialEncIf.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100micro.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_ini.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_lnk.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_msg.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\NetDriver.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Lib\KLib.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Lib\MLib.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Round.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Apl\Jog\FunJog.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Apl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Apl\RegEdit\RegEdit.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Apl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Apl\AlmTrc\FunAlmTrc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Apl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\InfMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\MonMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\ObjMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\OpeMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\PrmMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Core\FunMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\MemobusFunctions.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\MsgIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\MsgMngr.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\MsgIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\SigmaMemobus.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\MsgIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\LcdOpMain.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\OpeIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\LcdOpPrmMon.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\OpeIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\PnlOp.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\OpeIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\PnlOpAp.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\OpeIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\OpeIf\LcdOpFun.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\OpeIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\UnRegCalc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\InfoRegCalc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\NetworkIdRegCalc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\OpeRegCalc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmCalc.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\Registers\RegAccessIf.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnAbsScaleSet.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnAtypeVibTune.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnDCVoltageAdj.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnEasyFFT.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnInitVibDetLv.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnJatOffLine.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnJog.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMfcTuning.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMotorCurrentAdj.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMotorPrmDownload.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMultiTurnSet.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnOnePrmTuning.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnPrgJog.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnSetTuneLessLvl.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnSysConfig.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnTableCommand.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnVibMonitor.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunListDef.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunManager.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\OnlineFFT.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\TuneLib.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AdvancedAutoTuning.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AutoNotchSet.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanA\IntScanA.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanB\IntScanB.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanB\DataTraceManager.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanC\AlarmTable.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanC\IntScanC.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\ScanC\AlarmManager.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\XlsTrcDef.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\DataTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\DataTraceCalc.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\DataTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\TrcRegTblIngram.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\UnRegTblIngram.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\InfoRegTblIngram.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\OpeRegTblIngram.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\Registers\PrmTblIngram.c">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Communications\M3\M3CfgTbl.c">
+      <Filter>ソース ファイル\01_Standard\Communications\M3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\BaseControlMain.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseSequences\SequenceMain.c">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClCompile>
+    <ClCompile Include="FG.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stubs.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ServoIf.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SimMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\SifMbus.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\CtrlPrmTransducer.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ExControls.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\BaseControls\ExCtrlPrmCalc.c">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\00_src\01_Standard\Kernel\Driver\SimMotPrm.c">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BacklashComp.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseCmnStruct.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseControlPrmCalc.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseControls.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\Bprm.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\CtrlLoopHandler.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\GainChange.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\GselHandler.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\JatOffLine.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MfcHandler.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MicroPrmCalc.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MicroScanAIf.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ModelControl.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MotorPoleFind.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\MpfHandler.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\PosManager.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ProgramJog.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ResVibCtrl.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ServoIf.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\TableDrive.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\SequenceIo.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\BaseEnableSequence.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\CheckAlarm.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\CheckMotSts.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\OverheatManager.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\PowerManager.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\RemVibFreq.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\ComCfg.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\M3TaskIfMain.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdAnalyzer.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdHandler.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\CmdTable.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComAlmMngr.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\ComManager.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3Handler.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdCmdProc.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdDataFormat.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\M3StdRspProc.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RegMngr.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RegTable.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RspHandler.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\RspManager.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\MLink\SysApi.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Mlink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\AccFilter.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtApi.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtCtrl.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtGenerator.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\MtPRM.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\Position.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Communications\M3\Motion\PRMBank.h">
+      <Filter>ソース ファイル\01_Standard\Communications\M3\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Boot\Config\MercuryGlobals.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Boot\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Boot\Config\SysConfig.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Boot\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\EepromIF.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\FlashIF.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\MemobusIF.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\NetworkIf.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\DetectTemperature.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Dma.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\DMAdrv.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Eeprom.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\HwDeviceIf.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\mp_api.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Sif.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\SPI_EepromDrv.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Uart.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\Usb.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\CortexR4\VSif.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\CortexR4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\EncData.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\I2C_EepromDrv.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\JL086ServoIpHw.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\JL086ServoIpReg.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL086\SerialEncIf.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL086</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\big_jl100_def.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\jl100s_gbl.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\little_jl100_def.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Driver\HAL\JL102mslv\NetDriver.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Driver\HAL\JL102mslv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\alarm.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Function.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Information.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\KnlApi.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\LcdOp.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Monitor.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\MsgIfDef.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Object.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Operation.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\Parameter.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\PnlOp.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Include\PnlOpCORE.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Lib\Basedef.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Lib\KLib.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Lib\MLib.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\MsgIf\MemobusFunctions.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\MsgIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\UnMonFunc.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\InfRegFunc.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\NetworkIdRegFunc.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\OpeRegFunc.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmCalFunc.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmListTbl.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PnPrmStruct.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\PrmAccessIf.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\Registers\UnitPrmStruct.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnAtypeVibTune.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnDCVoltageAdj.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnEasyFFT.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnInitVibDetLvl.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnJatOffLine.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnMfcTuning.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnOnePrmTuning.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnPrgJog.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnSetTuneLessLvl.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnTableCommand.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FnVibMonitor.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunListDef.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunManager.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\PdetABSScale.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\TuneLib.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AdvancedAutoTuning.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\AutoNotchSet.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\ScanB\DataTraceManager.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\ScanC\AlarmManager.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\Kernel\ScanC\alarm.h">
+      <Filter>ソース ファイル\01_Standard\Kernel\ScanC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\DataTraceCalc.h">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\DataTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace\XlsTrcDef.h">
+      <Filter>ソース ファイル\02_Custom\00_SGD7\00_SpecCommon\DataTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\BaseControlMain.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseSequences\SequenceMain.h">
+      <Filter>ソース ファイル\01_Standard\BaseSequences</Filter>
+    </ClInclude>
+    <ClInclude Include="INTEGRITY.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SimMain.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\CtrlPrmTransducer.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ExControls.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\00_src\01_Standard\BaseControls\ExCtrlPrmCalc.h">
+      <Filter>ソース ファイル\01_Standard\BaseControls</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSetting.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MercurySim.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon2.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bitmap1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="BackGround.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bitmap2.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Off.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="On.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="alarm.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="bitmap4.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\00_src\01_Standard\Kernel\Round\UtilityFuns\FunTblIngram.xls">
+      <Filter>ソース ファイル\01_Standard\Kernel\Round\UtilityFuns</Filter>
+    </None>
+  </ItemGroup>
+</Project>

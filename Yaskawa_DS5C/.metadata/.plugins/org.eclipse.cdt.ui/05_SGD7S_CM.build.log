@@ -1,0 +1,26 @@
+21:06:01 **** Incremental Build of configuration Debug for project 05_SGD7S_CM ****
+make all 
+'Building file: E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c'
+'Invoking: ARM C ƒRƒ“ƒpƒCƒ‰'
+armcc --cpu=Cortex-R4F --littleend --thumb --apcs=/interwork --fpu=VFPv3_D16 -DCSW_NETIF_CM_TYPE -Dxxx_NON_EEPROM_ -Dxxx_USB_FUNC_USE_ -DxxxCSW_MICRO_DEBUG_MODE -Dxxx_ASIP_DEBUG_BUF_USE_ -DSVFIF_CMDOPT -D_CMDOPT_OPE_DBG_ -D_CMDOPT_ALM_DBG_ -DMCCSW_SGDVCMOP -I"../../../../00_src\00_Bsp\JL086_bsp" -I"../../../../00_src\00_Bsp\JL086_bsp\CPUPeripheral" -I"../../../../00_src\00_Bsp\\JL086_bsp\usb_function" -I"../../../../00_src\01_Standard\MicroProgram" -I"../../../../00_src\01_Standard\Communications" -I"../../../../00_src\01_Standard\Communications/DPM" -I"../../../../00_src\01_Standard\Communications/DPM/XlsTbl" -I"../../../../00_src\01_Standard\Communications/DPM/Mlink" -I"../../../../00_src\01_Standard\Communications/DPM/Motion" -I"../../../../00_src\01_Standard\BaseControls" -I"../../../../00_src\01_Standard\BaseSequences" -I"../../../../00_src\01_Standard\Kernel\Include" -I"../../../../00_src\01_Standard\Kernel\Lib" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\CortexR4" -I"../../../../00_src\01_Standard\Kernel\Driver\JL086\UDL\Servo" -I"../../../../00_src\01_Standard\Kernel\Driver" -I"../../../../00_src\01_Standard\Kernel\Boot\Config" -I"../../../../00_src\01_Standard\Kernel\ScanB" -I"../../../../00_src\01_Standard\Kernel\ScanC" -I"../../../../00_src\01_Standard\Kernel\Round\Registers" -I"../../../../00_src\01_Standard\Kernel\Round\UtilityFuns" -I"../../../../00_src\01_Standard\Kernel\Round\MsgIf" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\DataTrace" -I"../../../../00_src\02_Custom\00_SGD7\00_SpecCommon\Registers" -I"../../../../00_src\02_Custom\00_SGD7\04_SGD7S_CM" -I"../../../../00_src\00_Bsp\ARM9_bsp\driver\cpu" -I"../../../../00_src\00_Bsp\ARM9_bsp\driver\intc" -I"../../../../00_src\00_Bsp\ARM9_bsp\include" -O1 -Otime --feedback="../05_SGD7S_CM.fb" -g --md --depend_format=unix_escaped -c -o "00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.o" "E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c"
+Warning: C4052E: couldn't read file '../05_SGD7S_CM.fb': No such file or directory
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 179: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfInitialize(NETMSG_IF *NetMsgIf, MEMOBUS_ADDR_MAP *AddrMap, 
+                       ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 181: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfPollTxRx(NETMSG_IF *NetMsgIf);
+                     ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 182: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfPollScanB(NETMSG_IF *NetMsgIf);	/* <USB-FUNCTION> 2013.05.12 K.Sakamoto */
+                      ^
+"../../../../00_src\01_Standard\Kernel\Driver/NetworkIf.h", line 183: Error:  #20: identifier "NETMSG_IF" is undefined
+  void MsgIfBackgroundProdedure(NETMSG_IF *NetMsgIf);
+                                ^
+"../../../../00_src\01_Standard\BaseControls/BaseControls.h", line 38: Error:  #5: cannot open source input file "MotorLessTestStr.h": No such file or directory
+  #include "MotorLessTestStr.h"	/* <S1B7> */
+                               	            ^
+E:/Yaskawa_DS5C/Mercury_Projects_org/00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.c: 0 warnings, 5 errors
+make: *** [00_src/02_Custom/00_SGD7/04_SGD7S_CM/M2IdRegTblMercury.o] Error 1
+
+21:06:03 Build Finished (took 1s.363ms)
+
